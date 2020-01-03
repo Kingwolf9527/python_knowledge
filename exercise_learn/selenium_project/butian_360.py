@@ -175,7 +175,7 @@ class Butian_proceing(object):
 
         #修复方案
         self.driver.find_element_by_id('repair_suggest').clear()
-        self.driver.find_element_by_id('repair_suggest').send_keys('过滤相关关键字')
+        self.driver.find_element_by_id('repair_suggest').send_keys('过滤相关的关键字')
 
         #所属行业(一般选择"IT/计算机/互联网/通信")
         industry = Select(self.driver.find_element_by_id('industry1'))
