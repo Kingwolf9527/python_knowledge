@@ -1,0 +1,21 @@
+# ! /usr/bin/env python
+# - * - coding:utf-8 - * -
+# __author__ : KingWolf
+# createtime : 2018/9/16 5:07
+
+#计算器类
+class Count():
+
+    def __init__(self,a,b):
+        self.a = int(a)
+        self.b = int(b)
+
+    #计算加法
+    def add(self):
+        return self.a + self.b
+
+
+    #计算减法
+    def sub(self):
+        return self.a - self.b
+

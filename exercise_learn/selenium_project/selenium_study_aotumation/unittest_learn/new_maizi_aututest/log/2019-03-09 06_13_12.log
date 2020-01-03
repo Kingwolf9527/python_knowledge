@@ -1,0 +1,64 @@
+2019-03-09 06:13:12,824 -- browserType -- INFO -- You select Chrome browser
+2019-03-09 06:13:12,824 -- browserType -- INFO -- login_url is http://www.maiziedu.com/
+2019-03-09 06:13:16,313 -- browserType -- INFO -- Starting chrome browser
+2019-03-09 06:13:21,959 -- browserType -- INFO -- Open url is http://www.maiziedu.com/
+2019-03-09 06:13:22,074 -- base_page -- INFO -- Had find the element  登录:successfulby link_text via value:登录
+2019-03-09 06:13:22,239 -- base_page -- INFO -- The emement was click
+2019-03-09 06:13:24,245 -- base_page -- INFO -- Current page title is 麦子学院 - 专业IT职业教育平台|ui培训|python培训|web前端培训|产品经理培训
+2019-03-09 06:13:24,246 -- Jump_login -- INFO -- assert success
+2019-03-09 06:13:24,286 -- base_page -- INFO -- Had find the element  :successfulby id via value:id_account_l
+2019-03-09 06:13:24,507 -- base_page -- INFO -- Had type  1372622997 in inputBox
+2019-03-09 06:13:24,555 -- base_page -- INFO -- Had find the element  :successfulby id via value:id_password_l
+2019-03-09 06:13:24,725 -- base_page -- INFO -- Had type  922521dfxs in inputBox
+2019-03-09 06:13:24,771 -- base_page -- INFO -- Had find the element  登录:successfulby id via value:login_btn
+2019-03-09 06:13:24,869 -- base_page -- INFO -- The emement was click
+2019-03-09 06:13:28,310 -- base_page -- INFO -- Had take screenshot and save to folder : /screenshot_img
+2019-03-09 06:13:28,346 -- base_page -- INFO -- Had find the element  该账号格式不正确:successfulby id via value:login-form-tips
+2019-03-09 06:13:30,559 -- browserType -- INFO -- You select Chrome browser
+2019-03-09 06:13:30,559 -- browserType -- INFO -- login_url is http://www.maiziedu.com/
+2019-03-09 06:13:33,853 -- browserType -- INFO -- Starting chrome browser
+2019-03-09 06:13:38,939 -- browserType -- INFO -- Open url is http://www.maiziedu.com/
+2019-03-09 06:13:39,042 -- base_page -- INFO -- Had find the element  登录:successfulby link_text via value:登录
+2019-03-09 06:13:39,195 -- base_page -- INFO -- The emement was click
+2019-03-09 06:13:41,203 -- base_page -- INFO -- Current page title is 麦子学院 - 专业IT职业教育平台|ui培训|python培训|web前端培训|产品经理培训
+2019-03-09 06:13:41,203 -- Jump_login -- INFO -- assert success
+2019-03-09 06:13:41,241 -- base_page -- INFO -- Had find the element  :successfulby id via value:id_account_l
+2019-03-09 06:13:41,335 -- base_page -- INFO -- Had type   in inputBox
+2019-03-09 06:13:41,417 -- base_page -- INFO -- Had find the element  :successfulby id via value:id_password_l
+2019-03-09 06:13:41,590 -- base_page -- INFO -- Had type  922521dfxs in inputBox
+2019-03-09 06:13:41,632 -- base_page -- INFO -- Had find the element  登录:successfulby id via value:login_btn
+2019-03-09 06:13:41,740 -- base_page -- INFO -- The emement was click
+2019-03-09 06:13:45,156 -- base_page -- INFO -- Had take screenshot and save to folder : /screenshot_img
+2019-03-09 06:13:45,192 -- base_page -- INFO -- Had find the element  账号不能为空:successfulby id via value:login-form-tips
+2019-03-09 06:13:47,392 -- browserType -- INFO -- You select Chrome browser
+2019-03-09 06:13:47,393 -- browserType -- INFO -- login_url is http://www.maiziedu.com/
+2019-03-09 06:13:50,623 -- browserType -- INFO -- Starting chrome browser
+2019-03-09 06:13:55,683 -- browserType -- INFO -- Open url is http://www.maiziedu.com/
+2019-03-09 06:13:55,793 -- base_page -- INFO -- Had find the element  登录:successfulby link_text via value:登录
+2019-03-09 06:13:55,957 -- base_page -- INFO -- The emement was click
+2019-03-09 06:13:57,963 -- base_page -- INFO -- Current page title is 麦子学院 - 专业IT职业教育平台|ui培训|python培训|web前端培训|产品经理培训
+2019-03-09 06:13:57,964 -- Jump_login -- INFO -- assert success
+2019-03-09 06:13:58,000 -- base_page -- INFO -- Had find the element  :successfulby id via value:id_account_l
+2019-03-09 06:13:58,222 -- base_page -- INFO -- Had type  13726229967 in inputBox
+2019-03-09 06:13:58,264 -- base_page -- INFO -- Had find the element  :successfulby id via value:id_password_l
+2019-03-09 06:13:58,342 -- base_page -- INFO -- Had type   in inputBox
+2019-03-09 06:13:58,385 -- base_page -- INFO -- Had find the element  登录:successfulby id via value:login_btn
+2019-03-09 06:13:58,480 -- base_page -- INFO -- The emement was click
+2019-03-09 06:14:01,921 -- base_page -- INFO -- Had take screenshot and save to folder : /screenshot_img
+2019-03-09 06:14:01,957 -- base_page -- INFO -- Had find the element  密码不能为空:successfulby id via value:login-form-tips
+2019-03-09 06:14:04,133 -- browserType -- INFO -- You select Chrome browser
+2019-03-09 06:14:04,133 -- browserType -- INFO -- login_url is http://www.maiziedu.com/
+2019-03-09 06:14:07,292 -- browserType -- INFO -- Starting chrome browser
+2019-03-09 06:14:12,380 -- browserType -- INFO -- Open url is http://www.maiziedu.com/
+2019-03-09 06:14:12,480 -- base_page -- INFO -- Had find the element  登录:successfulby link_text via value:登录
+2019-03-09 06:14:12,680 -- base_page -- INFO -- The emement was click
+2019-03-09 06:14:14,686 -- base_page -- INFO -- Current page title is 麦子学院 - 专业IT职业教育平台|ui培训|python培训|web前端培训|产品经理培训
+2019-03-09 06:14:14,686 -- Jump_login -- INFO -- assert success
+2019-03-09 06:14:14,725 -- base_page -- INFO -- Had find the element  :successfulby id via value:id_account_l
+2019-03-09 06:14:14,952 -- base_page -- INFO -- Had type  13726229997 in inputBox
+2019-03-09 06:14:14,996 -- base_page -- INFO -- Had find the element  :successfulby id via value:id_password_l
+2019-03-09 06:14:15,126 -- base_page -- INFO -- Had type  8763873 in inputBox
+2019-03-09 06:14:15,168 -- base_page -- INFO -- Had find the element  登录:successfulby id via value:login_btn
+2019-03-09 06:14:15,268 -- base_page -- INFO -- The emement was click
+2019-03-09 06:14:18,687 -- base_page -- INFO -- Had take screenshot and save to folder : /screenshot_img
+2019-03-09 06:14:18,722 -- base_page -- INFO -- Had find the element  账号或者密码错误，请重新输入:successfulby id via value:login-form-tips

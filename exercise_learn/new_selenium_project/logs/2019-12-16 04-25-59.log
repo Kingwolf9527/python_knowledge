@@ -1,0 +1,6 @@
+2019-12-16 04:25:59,622 --- run_sctipt_simple.py --- test_exe_case ---  28 --- INFO --- ------  case_path is: F:/GitExtensions_python/project_spider/exercise_learn/new_selenium_project\test_case   ------
+2019-12-16 04:26:01,798 --- run_sctipt_simple.py --- report_info ---  41 --- INFO --- ------  report_path is: F:/GitExtensions_python/project_spider/exercise_learn/new_selenium_project\report   ------
+2019-12-16 04:26:01,799 --- run_sctipt_simple.py --- report_info ---  47 --- INFO --- ------ report_name is: F:/GitExtensions_python/project_spider/exercise_learn/new_selenium_project\report\2019-12-16 04_26_01.html    ------
+2019-12-16 04:27:13,153 --- run_sctipt_simple.py --- get_new_report ---  71 --- INFO --- ------ the new_report is: F:/GitExtensions_python/project_spider/exercise_learn/new_selenium_project\report\2019-12-16 04_26_01.html    ------
+2019-12-16 04:27:13,167 --- run_sctipt_simple.py --- get_new_report ---  71 --- INFO --- ------ the new_report is: F:/GitExtensions_python/project_spider/exercise_learn/new_selenium_project\report\2019-12-16 04_26_01.html    ------
+2019-12-16 04:27:25,142 --- run_sctipt_simple.py --- send_email ---  100 --- INFO --- 邮件发送完成！

@@ -1,0 +1,6 @@
+2019-12-16 04:23:12,049 --- browser_driver_test.py --- __init__ ---  46 --- INFO --- -----------------open the browser:Chrome--------------------
+2019-12-16 04:23:33,842 --- browser_driver_test.py --- get_init_url ---  84 --- INFO --- ---------------------open the url: http://www.5itest.cn/register?goto=/ -----------------------
+2019-12-16 04:23:35,955 --- unittest_start_end.py --- tearDown ---  32 --- INFO --- ------ close the browser    ------
+2019-12-16 04:23:45,046 --- browser_driver_test.py --- __init__ ---  46 --- INFO --- -----------------open the browser:Chrome--------------------
+2019-12-16 04:24:09,161 --- browser_driver_test.py --- get_init_url ---  84 --- INFO --- ---------------------open the url: http://www.5itest.cn/register?goto=/ -----------------------
+2019-12-16 04:24:11,365 --- unittest_start_end.py --- tearDown ---  32 --- INFO --- ------ close the browser    ------

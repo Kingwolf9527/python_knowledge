@@ -1,0 +1,26 @@
+--*--Starting var:.. self = <__main__.Comment_loc object at 0x0000020BAA3830B8>
+--*--21:58:05.808693 call       150     def click_topic_title(self):
+--*--21:58:05.812187 line       155         if self.click_recent_comment():
+--*--21:58:43.847099 line       156             try:
+--*--21:58:43.849095 line       157                 eles = self.driver.find_elements(*self.title)
+--*--New var:....... eles = [<appium.webdriver.webelement.WebElement (sessio...b55-a20b-46e8-941a-8a1a98a7d711", element="32")>]
+--*--21:58:44.703057 line       158                 print(len(eles))
+--*--21:58:44.705053 line       159                 print(eles)
+--*--21:58:44.707048 line       160                 time.sleep(2)
+--*--21:58:46.708577 line       161                 for i in range(len(eles)):
+--*--New var:....... i = 0
+--*--21:58:46.715693 line       162                     eles[i].click()
+--*--21:58:46.981113 line       163                     time.sleep(2)
+--*--21:58:48.982964 line       165                     self.swipr_up(duration=10000)
+--*--21:58:53.824997 line       167                     self.driver.back()
+--*--21:58:54.610370 line       161                 for i in range(len(eles)):
+--*--Modified var:.. i = 1
+--*--21:58:54.613864 line       162                     eles[i].click()
+--*--21:59:07.727452 exception  162                     eles[i].click()
+--*--selenium.common.exceptions.NoSuchElementException: Message: UiSelector[INSTANCE=1, RESOURCE_ID=com.hupu.games:id/tv_title]
+--*--21:59:07.730449 line       169             except NoSuchElementException as e:
+--*--New var:....... e = NoSuchElementException('UiSelector[INSTANCE=1, RESOURCE_ID=com.hupu.games:id/tv_title]', None, None)
+--*--21:59:07.733444 line       170                 print('Error is : %s' %e)
+--*--21:59:07.734940 line       171                 print('没有找到帖子')
+--*--21:59:07.736933 return     171                 print('没有找到帖子')
+--*--Return value:.. None

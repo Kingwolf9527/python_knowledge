@@ -1,0 +1,19 @@
+#capability的配置
+platformName: Android
+platformVersion: 9
+deviceName: kingwolf
+udid: eac4b4a4
+appPackage: com.baidu.BaiduMap
+appActivity: com.baidu.baidumaps.WelcomeScreen
+newCommandTimeout: 400
+#这个配置是处理toast消息的时候，才调用
+automationName: uiautomator2
+#保持回话,这个参数比较重要，决定是否重置会话,false:表示重置会话
+noReset: false
+#这两个键盘操作，包含输入有中文字符处理
+unicodeKeyboard: true
+resetKeyboard: true
+#安装app
+app: D:\appium_apk_test\baiduditu.apk
+ip: 127.0.0.1
+port: 4723

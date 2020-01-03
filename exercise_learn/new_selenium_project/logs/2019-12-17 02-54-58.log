@@ -1,0 +1,48 @@
+2019-12-17 02:55:01,530 --- browser_driver_test.py --- __init__ ---  46 --- INFO --- -----------------open the browser:Chrome--------------------
+2019-12-17 02:55:23,090 --- browser_driver_test.py --- get_init_url ---  84 --- INFO --- ---------------------open the url: http://www.5itest.cn/register?goto=/ -----------------------
+2019-12-17 02:55:23,144 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="15f6fba0-e4d2-4224-8304-db472a4fde35")>    ------
+2019-12-17 02:55:23,312 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="271e62f7-2d56-41bc-9db7-0f23a79686fd")>    ------
+2019-12-17 02:55:23,681 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="a9a7d7ed-58b4-4e54-8783-b92d848fbe47")>    ------
+2019-12-17 02:55:24,075 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="95d1605d-08a1-4b10-ae6c-b0a1c5f8d462")>    ------
+2019-12-17 02:55:24,162 --- register_business.py --- common_send_keys ---  33 --- INFO --- ----- send_keys is : 111 test00470 test400752 djdj0
+2019-12-17 02:55:24,162 --- register_handle.py --- get_user_error_text ---  59 --- INFO --- ------ assertcode is: user_email_error    ------
+2019-12-17 02:55:24,182 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="e5c53ea3-7259-44ac-ae1f-c2d73a5373a7")>    ------
+2019-12-17 02:55:24,208 --- register_business.py --- register_fun ---  65 --- INFO --- ----   check the assertcode is: user_email_error ,asserttext is: 请输入有效的电子邮件地址
+2019-12-17 02:55:24,208 --- register_business.py --- register_fun ---  68 --- INFO --- ------  the error_info is True  ------
+2019-12-17 02:55:24,208 --- test_ddt_register_case.py --- test_Register_case ---  49 --- INFO --- ------ the  result_error is:   True   ------
+2019-12-17 02:55:24,306 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="15f6fba0-e4d2-4224-8304-db472a4fde35")>    ------
+2019-12-17 02:55:24,588 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="271e62f7-2d56-41bc-9db7-0f23a79686fd")>    ------
+2019-12-17 02:55:24,694 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="a9a7d7ed-58b4-4e54-8783-b92d848fbe47")>    ------
+2019-12-17 02:55:25,044 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="95d1605d-08a1-4b10-ae6c-b0a1c5f8d462")>    ------
+2019-12-17 02:55:25,137 --- register_business.py --- common_send_keys ---  33 --- INFO --- ----- send_keys is : 111 test00470 test400752 djdj0
+2019-12-17 02:55:25,137 --- register_handle.py --- get_user_error_text ---  59 --- INFO --- ------ assertcode is: user_email_error    ------
+2019-12-17 02:55:25,151 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="161eab940076a3c0d99771b659e5f3c2", element="e5c53ea3-7259-44ac-ae1f-c2d73a5373a7")>    ------
+2019-12-17 02:55:25,166 --- register_business.py --- register_fun ---  65 --- INFO --- ----   check the assertcode is: user_email_error ,asserttext is: 请输入有效的电子邮件地址
+2019-12-17 02:55:25,166 --- register_business.py --- register_fun ---  68 --- INFO --- ------  the error_info is True  ------
+2019-12-17 02:55:25,166 --- test_ddt_register_case.py --- test_Register_case ---  49 --- INFO --- ------ the  result_error is:   True   ------
+2019-12-17 02:55:27,177 --- unittest_start_end.py --- tearDown ---  32 --- INFO --- ------ close the browser    ------
+2019-12-17 02:55:32,596 --- browser_driver_test.py --- __init__ ---  46 --- INFO --- -----------------open the browser:Chrome--------------------
+2019-12-17 02:55:54,281 --- browser_driver_test.py --- get_init_url ---  84 --- INFO --- ---------------------open the url: http://www.5itest.cn/register?goto=/ -----------------------
+2019-12-17 02:55:54,343 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="1f58fe2a6abc37e80b5e5d19766f5256", element="b3067ccf-4036-4e8d-b14f-6935bca4b5b4")>    ------
+2019-12-17 02:55:54,673 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="1f58fe2a6abc37e80b5e5d19766f5256", element="b3220328-191a-42b5-be7f-84e8b6a2be2f")>    ------
+2019-12-17 02:55:55,101 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="1f58fe2a6abc37e80b5e5d19766f5256", element="c3731615-5219-47bd-b9ae-f8bbf2249e7e")>    ------
+2019-12-17 02:55:55,443 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="1f58fe2a6abc37e80b5e5d19766f5256", element="678393a9-394b-4897-a2cd-cfe3291d708d")>    ------
+2019-12-17 02:55:55,546 --- register_business.py --- common_send_keys ---  33 --- INFO --- ----- send_keys is : ddd5125@163.com tes3t009 test4009 djdj
+2019-12-17 02:55:55,547 --- register_handle.py --- get_user_error_text ---  59 --- INFO --- ------ assertcode is: user_email_error    ------
+2019-12-17 02:56:05,564 --- element_processing.py --- ele_processing ---  43 --- INFO --- NoSuchElementException:Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="register_email-error"]"}
+  (Session info: chrome=79.0.3945.79)
+
+2019-12-17 02:56:05,625 --- register_business.py --- register_fun ---  65 --- INFO --- ----   check the assertcode is: user_email_error ,asserttext is: 请输入有效的电子邮件地址
+2019-12-17 02:56:05,626 --- register_business.py --- register_fun ---  71 --- INFO --- ------  the  error_info is False   ------
+2019-12-17 02:56:05,626 --- test_ddt_register_case.py --- test_Register_case ---  49 --- INFO --- ------ the  result_error is:   False   ------
+2019-12-17 02:56:05,729 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="1f58fe2a6abc37e80b5e5d19766f5256", element="b3067ccf-4036-4e8d-b14f-6935bca4b5b4")>    ------
+2019-12-17 02:56:06,167 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="1f58fe2a6abc37e80b5e5d19766f5256", element="b3220328-191a-42b5-be7f-84e8b6a2be2f")>    ------
+2019-12-17 02:56:06,292 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="1f58fe2a6abc37e80b5e5d19766f5256", element="c3731615-5219-47bd-b9ae-f8bbf2249e7e")>    ------
+2019-12-17 02:56:06,598 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="1f58fe2a6abc37e80b5e5d19766f5256", element="678393a9-394b-4897-a2cd-cfe3291d708d")>    ------
+2019-12-17 02:56:06,666 --- register_business.py --- common_send_keys ---  33 --- INFO --- ----- send_keys is : ddd5125@163.com tes3t009 test4009 djdj
+2019-12-17 02:56:06,667 --- register_handle.py --- get_user_error_text ---  59 --- INFO --- ------ assertcode is: user_email_error    ------
+2019-12-17 02:56:06,683 --- element_processing.py --- ele_processing ---  41 --- INFO --- ------ the element is: <selenium.webdriver.remote.webelement.WebElement (session="1f58fe2a6abc37e80b5e5d19766f5256", element="e014494e-3cf9-45aa-a073-df864548b7ac")>    ------
+2019-12-17 02:56:06,707 --- register_business.py --- register_fun ---  65 --- INFO --- ----   check the assertcode is: user_email_error ,asserttext is: 请输入有效的电子邮件地址
+2019-12-17 02:56:06,708 --- register_business.py --- register_fun ---  68 --- INFO --- ------  the error_info is True  ------
+2019-12-17 02:56:06,708 --- test_ddt_register_case.py --- test_Register_case ---  49 --- INFO --- ------ the  result_error is:   True   ------
+2019-12-17 02:56:08,721 --- unittest_start_end.py --- tearDown ---  32 --- INFO --- ------ close the browser    ------

@@ -1,0 +1,3 @@
+2019-04-06 06:47:31,110 --- driver.py --- driver --- INFO --- .................start app ............. ---
+2019-04-06 06:47:45,349 --- common_view.py --- skip_btn --- INFO --- ...........check skip_btn................... ---
+2019-04-06 06:47:46,434 --- common_view.py --- skip_btn --- INFO --- ............ pass the skip-page................ ---

@@ -1,0 +1,8 @@
+2019-04-07 04:38:02,102 --- driver.py --- driver --- INFO --- .................start app ............. ---
+2019-04-07 04:38:16,105 --- common_view.py --- skip_btn --- INFO --- =================check skip_btn======================== ---
+2019-04-07 04:38:16,506 --- common_view.py --- skip_btn --- INFO --- =====================pass the skip-page================== ---
+2019-04-07 04:38:16,506 --- common_login.py --- login_check --- INFO --- ========================login========================== ---
+2019-04-07 04:38:16,507 --- common_login.py --- login_check --- INFO --- input username: kingwolfbook14 ---
+2019-04-07 04:38:22,485 --- common_login.py --- login_check --- INFO --- input password: 922521dfxs ---
+2019-04-07 04:38:28,426 --- common_login.py --- login_check --- INFO --- ======================click login_button================== ---
+2019-04-07 04:38:29,142 --- common_login.py --- login_check --- INFO --- =======================login finish======================= ---

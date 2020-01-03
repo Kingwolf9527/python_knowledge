@@ -1,0 +1,10 @@
+1.高匿名的url:https://www.xicidaili.com/nn/
+
+2.爬取的字段有：IP地址，端口，服务器地址，是否匿名，类型，速度，连接时间，存活时间，验证时间
+
+3.保存的方式是mysql存储，需要建一张表
+	ip_address,port，server_address,anonymity,type,speed,connect_time,survive_time,verify_time(datetime类型)
+
+4.分页的规律：https://www.xicidaili.com/nn/1   ，最后一位表示页数
+
+5.验证的网站还是：http://httpbin.org/ip

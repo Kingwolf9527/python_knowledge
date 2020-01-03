@@ -1,0 +1,4 @@
+2019-12-17 02:50:07,674 --- test_ddt_register_case.py --- test_Register_case ---  49 --- INFO --- ------ the  result_error is:   True   ------
+2019-12-17 02:50:08,678 --- test_ddt_register_case.py --- test_Register_case ---  49 --- INFO --- ------ the  result_error is:   True   ------
+2019-12-17 02:50:49,698 --- test_ddt_register_case.py --- test_Register_case ---  49 --- INFO --- ------ the  result_error is:   True   ------
+2019-12-17 02:50:50,618 --- test_ddt_register_case.py --- test_Register_case ---  49 --- INFO --- ------ the  result_error is:   True   ------

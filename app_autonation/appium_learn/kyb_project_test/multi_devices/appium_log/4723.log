@@ -1,0 +1,1694 @@
+[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1-p4723-bp4724
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: getaddrinfo ENOTFOUND 127.0.0.1-p4723-bp4724
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1-p4723-bp4724
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: getaddrinfo ENOTFOUND 127.0.0.1-p4723-bp4724
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>1:62001","noReset":"false"},"capabilities":{"firstMatch":[{"appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:newCommandTimeout":"4000","appium:appPackage":"com.tal.kaoyan","appium:udid":"127.0.0.1:62001","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","appium:deviceName":"127.0.0.1:62001","appium:noReset":"false","appium:platformVersion":"5.1.1"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformVersion":"5.1.1","newCommandTimeout":"4000","appPackage":"com.tal.kaoyan","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","noReset":"false"},null,{"firstMatch":[{"appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:newCommandTimeout":"4000","appium:appPackage":"com.tal.kaoyan","appium:udid":"127.0.0.1:62001","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","appium:deviceName":"127.0.0.1:62001","appium:noReset":"false","appium:platformVersion":"5.1.1"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557178818730 (05:40:18 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   newCommandTimeout: 4000
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   platformVersion: 5.1.1
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformVersion":"5.1.1",... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: e7368b1f-da30-402c-8787-4979fd348626
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 0 device(s) connected
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 0 device(s) connected
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 0 device(s) connected
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 0 device(s) connected
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[ADB][39m Could not find devices, restarting adb server...
+[debug] [35m[ADB][39m Restarting adb
+[debug] [35m[ADB][39m Killing adb server on port 5037
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[debug] [35m[AndroidDriver][39m Called deleteSession but bootstrap wasn't active
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557178849101 (05:40:49 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Could not find a connected Android device.
+[debug] [35m[W3C][39m     at C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-adb@7.7.1@appium-adb\lib\tools\system-calls.js:199:13
+[debug] [35m[W3C][39m     at Generator.next (<anonymous>)
+[debug] [35m[W3C][39m     at asyncGeneratorStep (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_@babel_runtime@7.4.3@@babel\runtime\helpers\asyncToGenerator.js:3:24)
+[debug] [35m[W3C][39m     at _next (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_@babel_runtime@7.4.3@@babel\runtime\helpers\asyncToGenerator.js:25:9)
+[debug] [35m[W3C][39m     at C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_@babel_runtime@7.4.3@@babel\runtime\helpers\asyncToGenerator.js:32:7
+[debug] [35m[W3C][39m     at new Promise (<anonymous>)
+[debug] [35m[W3C][39m     at C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_@babel_runtime@7.4.3@@babel\runtime\helpers\asyncToGenerator.js:21:12
+[debug] [35m[W3C][39m     at getDevices (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-adb@7.7.1@appium-adb\lib\tools\system-calls.js:197:17)
+[debug] [35m[W3C][39m     at getDevices (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-adb@7.7.1@appium-adb\lib\tools\system-calls.js:216:20)
+[debug] [35m[W3C][39m     at Generator.next (<anonymous>)
+[debug] [35m[W3C][39m     at asyncGeneratorStep (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_@babel_runtime@7.4.3@@babel\runtime\helpers\asyncToGenerator.js:3:24)
+[debug] [35m[W3C][39m     at _next (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_@babel_runtime@7.4.3@@babel\runtime\helpers\asyncToGenerator.js:25:9)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m30430 ms - 705[39m
+[35m[HTTP][39m [90m[39m
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>i.activity.SplashActivity"},"capabilities":{"firstMatch":[{"appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:noReset":"false","appium:platformVersion":"5.1.1","appium:deviceName":"127.0.0.1:62001","appium:udid":"127.0.0.1:62001","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:newCommandTimeout":"4000","appium:appPackage":"com.tal.kaoyan","platformName":"Android"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"newCommandTimeout":"4000","udid":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","platformVersion":"5.1.1","deviceName":"127.0.0.1:62001","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","platformName":"Android","noReset":"false","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity"},null,{"firstMatch":[{"appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:noReset":"false","appium:platformVersion":"5.1.1","appium:deviceName":"127.0.0.1:62001","appium:udid":"127.0.0.1:62001","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:newCommandTimeout":"4000","appium:appPackage":"com.tal.kaoyan","platformName":"Android"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557179238719 (05:47:18 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   platformVersion: 5.1.1
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   newCommandTimeout: 4000
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"newCommandTimeout":"4000"... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: b4d614d2-3774-4b81-9b7b-aec4806ed600
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[35m[BaseDriver][39m Using local app 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pidof --help > /dev/null; echo $?''
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[AndroidDriver][39m Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+[debug] [35m[ADB][39m Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+[debug] [35m[ADB][39m Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m The version name of the installed 'com.tal.kaoyan' is greater or equal to the application version name ('3.3.6' >= '3.3.6')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\KingWolf\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings from for language: default
+[35m[ADB][39m Successfully extracted 2290 strings from 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.15.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session b4d614d2-3774-4b81-9b7b-aec4806ed600 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557179263733 (05:47:43 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (b4d614d2)][39m Cached the protocol value 'W3C' for the new session b4d614d2-3774-4b81-9b7b-aec4806ed600
+[debug] [35m[W3C (b4d614d2)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","noReset":false,"platformVersion":"5.1.1","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","newCommandTimeout":4000,"appPackage":"com.tal.kaoyan"},"platformName":"Android","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","noReset":false,"platformVersion":"5.1.1","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","newCommandTimeout":4000,"appPackage":"com.tal.kaoyan","deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManuf...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m25027 ms - 1101[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b4d614d2-3774-4b81-9b7b-aec4806ed600/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":5000,"sessionId":"b4d614d2-3774-4b81-9b7b-aec4806ed600"}[39m
+[debug] [35m[W3C (b4d614d2)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"b4d614d2-3774-4b81-9b7b-aec4806ed600"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (b4d614d2)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b4d614d2-3774-4b81-9b7b-aec4806ed600/timeouts [39m[32m200[39m [90m40 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[Logcat][39m Logcat terminated with code 0, signal null
+[35m[UiAutomator][39m UiAutomator exited unexpectedly with code 0, signal null
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[35m[Appium][39m Removing session b4d614d2-3774-4b81-9b7b-aec4806ed600 from our master session list
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+Unhandled rejection Error: Command 'D\:\\android-sdk_r24.4.1-windows\\android-sdk-windows\\platform-tools\\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan' exited with code 1
+    at ChildProcess.proc.on.code (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_teen_process@1.14.1@teen_process\lib\exec.js:94:19)
+    at ChildProcess.emit (events.js:182:13)
+    at maybeClose (internal/child_process.js:962:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:noReset":"false","appium:newCommandTimeout":"4000","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:deviceName":"127.0.0.1:62001","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","appium:udid":"127.0.0.1:62001","appium:platformVersion":"5.1.1","appium:appPackage":"com.tal.kaoyan"}]},"desiredCapabilities":{"platformVersion":"5.1.1","noReset":"false","udid":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appPackage":"com.tal.kaoyan","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","deviceName":"127.0.0.1:62001","platformName":"Android","newCommandTimeout":"4000"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformVersion":"5.1.1","noReset":"false","udid":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appPackage":"com.tal.kaoyan","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","deviceName":"127.0.0.1:62001","platformName":"Android","newCommandTimeout":"4000"},null,{"firstMatch":[{"appium:noReset":"false","appium:newCommandTimeout":"4000","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:deviceName":"127.0.0.1:62001","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","appium:udid":"127.0.0.1:62001","appium:platformVersion":"5.1.1","appium:appPackage":"com.tal.kaoyan"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557253527815 (02:25:27 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   newCommandTimeout: 4000
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   platformVersion: 5.1.1
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformVersion":"5.1.1",... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: 985faea6-a555-4c14-b0f1-5d0fbcc747a1
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[35m[BaseDriver][39m Using local app 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pidof --help > /dev/null; echo $?''
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[AndroidDriver][39m Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+[debug] [35m[ADB][39m Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+[debug] [35m[ADB][39m Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m The version name of the installed 'com.tal.kaoyan' is greater or equal to the application version name ('3.3.6' >= '3.3.6')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\KingWolf\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings from for language: default
+[35m[ADB][39m Successfully extracted 2290 strings from 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.15.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 985faea6-a555-4c14-b0f1-5d0fbcc747a1 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557253556370 (02:25:56 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (985faea6)][39m Cached the protocol value 'W3C' for the new session 985faea6-a555-4c14-b0f1-5d0fbcc747a1
+[debug] [35m[W3C (985faea6)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","noReset":false,"newCommandTimeout":4000,"app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","deviceName":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62001","platformVersion":"5.1.1","appPackage":"com.tal.kaoyan"},"platformName":"Android","noReset":false,"newCommandTimeout":4000,"app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","deviceName":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62001","platformVersion":"5.1.1","appPackage":"com.tal.kaoyan","deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManuf...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m28587 ms - 1101[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/985faea6-a555-4c14-b0f1-5d0fbcc747a1/timeouts[39m
+[35m[HTTP][39m [90m{"sessionId":"985faea6-a555-4c14-b0f1-5d0fbcc747a1","implicit":5000}[39m
+[debug] [35m[W3C (985faea6)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"985faea6-a555-4c14-b0f1-5d0fbcc747a1"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (985faea6)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/985faea6-a555-4c14-b0f1-5d0fbcc747a1/timeouts [39m[32m200[39m [90m67 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[AndroidBootstrap][39m Emitting alert message...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Emitting system alert message
+[35m[UiAutomator][39m UiAutomator exited unexpectedly with code 0, signal null
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[35m[Logcat][39m Logcat terminated with code 0, signal null
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[35m[Appium][39m Removing session 985faea6-a555-4c14-b0f1-5d0fbcc747a1 from our master session list
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+Unhandled rejection Error: Command 'D\:\\android-sdk_r24.4.1-windows\\android-sdk-windows\\platform-tools\\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan' exited with code 1
+    at ChildProcess.proc.on.code (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_teen_process@1.14.1@teen_process\lib\exec.js:94:19)
+    at ChildProcess.emit (events.js:182:13)
+    at maybeClose (internal/child_process.js:962:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>ation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:platformVersion":"5.1.1"}]},"desiredCapabilities":{"newCommandTimeout":"4000","platformVersion":"5.1.1","deviceName":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62001","platformName":"Android","noReset":"false","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"newCommandTimeout":"4000","platformVersion":"5.1.1","deviceName":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62001","platformName":"Android","noReset":"false","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk"},null,{"firstMatch":[{"appium:newCommandTimeout":"4000","appium:noReset":"false","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:udid":"127.0.0.1:62001","appium:deviceName":"127.0.0.1:62001","appium:appPackage":"com.tal.kaoyan","platformName":"Android","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:platformVersion":"5.1.1"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557255563936 (02:59:23 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   newCommandTimeout: 4000
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   platformVersion: 5.1.1
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"newCommandTimeout":"4000"... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: 35bd54c6-0b0b-4f2f-ab85-442d0cad9da8
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[35m[BaseDriver][39m Using local app 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pidof --help > /dev/null; echo $?''
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[AndroidDriver][39m Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+[debug] [35m[ADB][39m Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+[debug] [35m[ADB][39m Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m The version name of the installed 'com.tal.kaoyan' is greater or equal to the application version name ('3.3.6' >= '3.3.6')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\KingWolf\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings from for language: default
+[35m[ADB][39m Successfully extracted 2290 strings from 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.15.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 35bd54c6-0b0b-4f2f-ab85-442d0cad9da8 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557255587129 (02:59:47 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (35bd54c6)][39m Cached the protocol value 'W3C' for the new session 35bd54c6-0b0b-4f2f-ab85-442d0cad9da8
+[debug] [35m[W3C (35bd54c6)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","newCommandTimeout":4000,"noReset":false,"appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62001","deviceName":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","platformVersion":"5.1.1"},"platformName":"Android","newCommandTimeout":4000,"noReset":false,"appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62001","deviceName":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","platformVersion":"5.1.1","deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManuf...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m23205 ms - 1101[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/35bd54c6-0b0b-4f2f-ab85-442d0cad9da8/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":5000,"sessionId":"35bd54c6-0b0b-4f2f-ab85-442d0cad9da8"}[39m
+[debug] [35m[W3C (35bd54c6)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"35bd54c6-0b0b-4f2f-ab85-442d0cad9da8"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (35bd54c6)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/35bd54c6-0b0b-4f2f-ab85-442d0cad9da8/timeouts [39m[32m200[39m [90m47 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"platformVersion":"5.1.1","noReset":"false","newCommandTimeout":"4000","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","udid":"127.0.0.1:62001","deviceName":"127.0.0.1:62001","platformName":"Android","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity"},"capabilities":{"firstMatch":[{"appium:noReset":"false","appium:platformVersion":"5.1.1","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:deviceName":"127.0.0.1:62001","appium:appPackage":"com.tal.kaoyan","platformName":"Android","appium:udid":"127.0.0.1:62001","appium:newCommandTimeout":"4000"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformVersion":"5.1.1","noReset":"false","newCommandTimeout":"4000","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","udid":"127.0.0.1:62001","deviceName":"127.0.0.1:62001","platformName":"Android","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity"},null,{"firstMatch":[{"appium:noReset":"false","appium:platformVersion":"5.1.1","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:deviceName":"127.0.0.1:62001","appium:appPackage":"com.tal.kaoyan","platformName":"Android","appium:udid":"127.0.0.1:62001","appium:newCommandTimeout":"4000"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557352182460 (05:49:42 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   platformVersion: 5.1.1
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   newCommandTimeout: 4000
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformVersion":"5.1.1",... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: df383f6b-57ef-4d3d-b0be-47eb4190df7a
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[35m[BaseDriver][39m Using local app 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pidof --help > /dev/null; echo $?''
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[AndroidDriver][39m Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+[debug] [35m[ADB][39m Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+[debug] [35m[ADB][39m Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m The version name of the installed 'com.tal.kaoyan' is greater or equal to the application version name ('3.3.6' >= '3.3.6')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\KingWolf\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings from for language: default
+[35m[ADB][39m Successfully extracted 2290 strings from 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.15.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session df383f6b-57ef-4d3d-b0be-47eb4190df7a added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557352211858 (05:50:11 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (df383f6b)][39m Cached the protocol value 'W3C' for the new session df383f6b-57ef-4d3d-b0be-47eb4190df7a
+[debug] [35m[W3C (df383f6b)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","noReset":false,"platformVersion":"5.1.1","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","deviceName":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","udid":"127.0.0.1:62001","newCommandTimeout":4000},"platformName":"Android","noReset":false,"platformVersion":"5.1.1","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","deviceName":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","udid":"127.0.0.1:62001","newCommandTimeout":4000,"deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManuf...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m29410 ms - 1101[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df383f6b-57ef-4d3d-b0be-47eb4190df7a/timeouts[39m
+[35m[HTTP][39m [90m{"sessionId":"df383f6b-57ef-4d3d-b0be-47eb4190df7a","implicit":5000}[39m
+[debug] [35m[W3C (df383f6b)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"df383f6b-57ef-4d3d-b0be-47eb4190df7a"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (df383f6b)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/df383f6b-57ef-4d3d-b0be-47eb4190df7a/timeouts [39m[32m200[39m [90m54 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"platformName":"Android","noReset":"false","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","newCommandTimeout":"4000","appPackage":"com.tal.kaoyan","platformVersion":"7.1.1","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity"},"capabilities":{"firstMatch":[{"platformName":"Android","appium:platformVersion":"7.1.1","appium:udid":"127.0.0.1:62001","appium:noReset":"false","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:appPackage":"com.tal.kaoyan","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:newCommandTimeout":"4000","appium:deviceName":"127.0.0.1:62001"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","noReset":"false","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","newCommandTimeout":"4000","appPackage":"com.tal.kaoyan","platformVersion":"7.1.1","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity"},null,{"firstMatch":[{"platformName":"Android","appium:platformVersion":"7.1.1","appium:udid":"127.0.0.1:62001","appium:noReset":"false","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:appPackage":"com.tal.kaoyan","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:newCommandTimeout":"4000","appium:deviceName":"127.0.0.1:62001"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557441833919 (06:43:53 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   platformVersion: 7.1.1
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   newCommandTimeout: 4000
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformName":"Android","... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: 9bffee21-2f4f-4cb6-a5d1-d7bde5a84eb0
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[35m[BaseDriver][39m Using local app 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pidof --help > /dev/null; echo $?''
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[AndroidDriver][39m Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+[debug] [35m[ADB][39m Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+[debug] [35m[ADB][39m Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m The version name of the installed 'com.tal.kaoyan' is greater or equal to the application version name ('3.3.6' >= '3.3.6')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\KingWolf\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings from for language: default
+[35m[ADB][39m Successfully extracted 2290 strings from 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.15.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 9bffee21-2f4f-4cb6-a5d1-d7bde5a84eb0 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557441873914 (06:44:33 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (9bffee21)][39m Cached the protocol value 'W3C' for the new session 9bffee21-2f4f-4cb6-a5d1-d7bde5a84eb0
+[debug] [35m[W3C (9bffee21)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"7.1.1","udid":"127.0.0.1:62001","noReset":false,"app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","newCommandTimeout":4000,"deviceName":"127.0.0.1:62001"},"platformName":"Android","platformVersion":"5.1.1","udid":"127.0.0.1:62001","noReset":false,"app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","newCommandTimeout":4000,"deviceName":"127.0.0.1:62001","deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManuf...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m40007 ms - 1101[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9bffee21-2f4f-4cb6-a5d1-d7bde5a84eb0/timeouts[39m
+[35m[HTTP][39m [90m{"sessionId":"9bffee21-2f4f-4cb6-a5d1-d7bde5a84eb0","implicit":5000}[39m
+[debug] [35m[W3C (9bffee21)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"9bffee21-2f4f-4cb6-a5d1-d7bde5a84eb0"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (9bffee21)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9bffee21-2f4f-4cb6-a5d1-d7bde5a84eb0/timeouts [39m[32m200[39m [90m104 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[AndroidBootstrap][39m Emitting alert message...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Emitting system alert message
+[35m[Logcat][39m Logcat terminated with code 0, signal null
+[35m[UiAutomator][39m UiAutomator exited unexpectedly with code 0, signal null
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[35m[Appium][39m Removing session 9bffee21-2f4f-4cb6-a5d1-d7bde5a84eb0 from our master session list
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+Unhandled rejection Error: Command 'D\:\\android-sdk_r24.4.1-windows\\android-sdk-windows\\platform-tools\\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan' exited with code 1
+    at ChildProcess.proc.on.code (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_teen_process@1.14.1@teen_process\lib\exec.js:94:19)
+    at ChildProcess.emit (events.js:182:13)
+    at maybeClose (internal/child_process.js:962:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>ium:udid":"127.0.0.1:62001","platformName":"Android","appium:deviceName":"127.0.0.1:62001"}]},"desiredCapabilities":{"appPackage":"com.tal.kaoyan","newCommandTimeout":"4000","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","platformVersion":"7.1.1","platformName":"Android","udid":"127.0.0.1:62001","noReset":"false","deviceName":"127.0.0.1:62001"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appPackage":"com.tal.kaoyan","newCommandTimeout":"4000","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","platformVersion":"7.1.1","platformName":"Android","udid":"127.0.0.1:62001","noReset":"false","deviceName":"127.0.0.1:62001"},null,{"firstMatch":[{"appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:noReset":"false","appium:appPackage":"com.tal.kaoyan","appium:platformVersion":"7.1.1","appium:newCommandTimeout":"4000","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:udid":"127.0.0.1:62001","platformName":"Android","appium:deviceName":"127.0.0.1:62001"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557442658756 (06:57:38 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   platformVersion: 7.1.1
+[35m[Appium][39m   newCommandTimeout: 4000
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"appPackage":"com.tal.kaoy... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: b56cf76b-d702-4492-95b2-8a029f64aa90
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[35m[BaseDriver][39m Using local app 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pidof --help > /dev/null; echo $?''
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[AndroidDriver][39m Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+[debug] [35m[ADB][39m Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+[debug] [35m[ADB][39m Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m The version name of the installed 'com.tal.kaoyan' is greater or equal to the application version name ('3.3.6' >= '3.3.6')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\KingWolf\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings from for language: default
+[35m[ADB][39m Successfully extracted 2290 strings from 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.15.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session b56cf76b-d702-4492-95b2-8a029f64aa90 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557442701926 (06:58:21 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (b56cf76b)][39m Cached the protocol value 'W3C' for the new session b56cf76b-d702-4492-95b2-8a029f64aa90
+[debug] [35m[W3C (b56cf76b)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","noReset":false,"appPackage":"com.tal.kaoyan","platformVersion":"7.1.1","newCommandTimeout":4000,"appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62001","deviceName":"127.0.0.1:62001"},"platformName":"Android","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","noReset":false,"appPackage":"com.tal.kaoyan","platformVersion":"5.1.1","newCommandTimeout":4000,"appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62001","deviceName":"127.0.0.1:62001","deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManuf...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m43190 ms - 1101[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b56cf76b-d702-4492-95b2-8a029f64aa90/timeouts[39m
+[35m[HTTP][39m [90m{"sessionId":"b56cf76b-d702-4492-95b2-8a029f64aa90","implicit":5000}[39m
+[debug] [35m[W3C (b56cf76b)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"b56cf76b-d702-4492-95b2-8a029f64aa90"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (b56cf76b)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b56cf76b-d702-4492-95b2-8a029f64aa90/timeouts [39m[32m200[39m [90m121 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[Logcat][39m Logcat terminated with code 0, signal null
+[35m[UiAutomator][39m UiAutomator exited unexpectedly with code 0, signal null
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[35m[Appium][39m Removing session b56cf76b-d702-4492-95b2-8a029f64aa90 from our master session list
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+Unhandled rejection Error: Command 'D\:\\android-sdk_r24.4.1-windows\\android-sdk-windows\\platform-tools\\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan' exited with code 1
+    at ChildProcess.proc.on.code (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_teen_process@1.14.1@teen_process\lib\exec.js:94:19)
+    at ChildProcess.emit (events.js:182:13)
+    at maybeClose (internal/child_process.js:962:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port 
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>Fatal Error: listen EADDRINUSE 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>i.activity.SplashActivity"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:platformVersion":"7.1.1","appium:newCommandTimeout":"4000","appium:udid":"127.0.0.1:62001","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:deviceName":"127.0.0.1:62001","appium:appPackage":"com.tal.kaoyan","platformName":"Android","appium:noReset":"false"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"127.0.0.1:62001","noReset":"false","platformVersion":"7.1.1","appPackage":"com.tal.kaoyan","udid":"127.0.0.1:62001","newCommandTimeout":"4000","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity"},null,{"firstMatch":[{"appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:platformVersion":"7.1.1","appium:newCommandTimeout":"4000","appium:udid":"127.0.0.1:62001","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:deviceName":"127.0.0.1:62001","appium:appPackage":"com.tal.kaoyan","platformName":"Android","appium:noReset":"false"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557604004421 (03:46:44 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   platformVersion: 7.1.1
+[35m[Appium][39m   newCommandTimeout: 4000
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   noReset: false
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformName":"Android","... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: 413c689f-0a97-4fd5-b800-185580599109
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[35m[BaseDriver][39m Using local app 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pidof --help > /dev/null; echo $?''
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[AndroidDriver][39m Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+[debug] [35m[ADB][39m Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+[debug] [35m[ADB][39m Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m The version name of the installed 'com.tal.kaoyan' is greater or equal to the application version name ('3.3.6' >= '3.3.6')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\KingWolf\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings from for language: default
+[35m[ADB][39m Successfully extracted 2290 strings from 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.15.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 413c689f-0a97-4fd5-b800-185580599109 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557604048096 (03:47:28 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (413c689f)][39m Cached the protocol value 'W3C' for the new session 413c689f-0a97-4fd5-b800-185580599109
+[debug] [35m[W3C (413c689f)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformVersion":"7.1.1","newCommandTimeout":4000,"udid":"127.0.0.1:62001","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","deviceName":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","noReset":false},"platformName":"Android","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformVersion":"5.1.1","newCommandTimeout":4000,"udid":"127.0.0.1:62001","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","deviceName":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","noReset":false,"deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManuf...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m43694 ms - 1101[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/413c689f-0a97-4fd5-b800-185580599109/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":5000,"sessionId":"413c689f-0a97-4fd5-b800-185580599109"}[39m
+[debug] [35m[W3C (413c689f)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"413c689f-0a97-4fd5-b800-185580599109"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (413c689f)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/413c689f-0a97-4fd5-b800-185580599109/timeouts [39m[32m200[39m [90m88 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/413c689f-0a97-4fd5-b800-185580599109/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.tal.kaoyan:id/tv_skip","sessionId":"413c689f-0a97-4fd5-b800-185580599109"}[39m
+[debug] [35m[W3C (413c689f)][39m Calling AppiumDriver.findElement() with args: ["id","com.tal.kaoyan:id/tv_skip","413c689f-0a97-4fd5-b800-185580599109"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.tal.kaoyan:id/tv_skip' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tal.kaoyan:id/tv_skip]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (413c689f)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/413c689f-0a97-4fd5-b800-185580599109/element [39m[32m200[39m [90m87 ms - 67[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/413c689f-0a97-4fd5-b800-185580599109/element/1/click[39m
+[35m[HTTP][39m [90m{"id":"1","sessionId":"413c689f-0a97-4fd5-b800-185580599109"}[39m
+[debug] [35m[W3C (413c689f)][39m Calling AppiumDriver.click() with args: ["1","413c689f-0a97-4fd5-b800-185580599109"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (413c689f)][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/413c689f-0a97-4fd5-b800-185580599109/element/1/click [39m[32m200[39m [90m482 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>i.activity.SplashActivity"},"capabilities":{"firstMatch":[{"appium:deviceName":"127.0.0.1:62001","appium:platformVersion":"7.1.1","appium:noReset":"false","appium:appPackage":"com.tal.kaoyan","appium:udid":"127.0.0.1:62001","platformName":"Android","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:newCommandTimeout":"4000"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"noReset":"false","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","deviceName":"127.0.0.1:62001","platformVersion":"7.1.1","appPackage":"com.tal.kaoyan","platformName":"Android","udid":"127.0.0.1:62001","newCommandTimeout":"4000","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity"},null,{"firstMatch":[{"appium:deviceName":"127.0.0.1:62001","appium:platformVersion":"7.1.1","appium:noReset":"false","appium:appPackage":"com.tal.kaoyan","appium:udid":"127.0.0.1:62001","platformName":"Android","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:newCommandTimeout":"4000"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557604434922 (03:53:54 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   platformVersion: 7.1.1
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   newCommandTimeout: 4000
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":"false","app":"F... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: 2f5a0503-8dbc-4316-9068-719c6f14b7ca
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[35m[BaseDriver][39m Using local app 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pidof --help > /dev/null; echo $?''
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m The version name of the installed 'com.tal.kaoyan' is greater or equal to the application version name ('3.3.6' >= '3.3.6')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\KingWolf\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings from for language: default
+[35m[ADB][39m Successfully extracted 2290 strings from 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.15.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 2f5a0503-8dbc-4316-9068-719c6f14b7ca added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557604469826 (03:54:29 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (2f5a0503)][39m Cached the protocol value 'W3C' for the new session 2f5a0503-8dbc-4316-9068-719c6f14b7ca
+[debug] [35m[W3C (2f5a0503)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"127.0.0.1:62001","platformVersion":"7.1.1","noReset":false,"appPackage":"com.tal.kaoyan","udid":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","newCommandTimeout":4000},"platformName":"Android","deviceName":"127.0.0.1:62001","platformVersion":"5.1.1","noReset":false,"appPackage":"com.tal.kaoyan","udid":"127.0.0.1:62001","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","newCommandTimeout":4000,"deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManuf...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m34939 ms - 1101[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2f5a0503-8dbc-4316-9068-719c6f14b7ca/timeouts[39m
+[35m[HTTP][39m [90m{"sessionId":"2f5a0503-8dbc-4316-9068-719c6f14b7ca","implicit":5000}[39m
+[debug] [35m[W3C (2f5a0503)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"2f5a0503-8dbc-4316-9068-719c6f14b7ca"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (2f5a0503)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2f5a0503-8dbc-4316-9068-719c6f14b7ca/timeouts [39m[32m200[39m [90m78 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2f5a0503-8dbc-4316-9068-719c6f14b7ca/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.tal.kaoyan:id/tv_skip","sessionId":"2f5a0503-8dbc-4316-9068-719c6f14b7ca"}[39m
+[debug] [35m[W3C (2f5a0503)][39m Calling AppiumDriver.findElement() with args: ["id","com.tal.kaoyan:id/tv_skip","2f5a0503-8dbc-4316-9068-719c6f14b7ca"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.tal.kaoyan:id/tv_skip' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tal.kaoyan:id/tv_skip]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (2f5a0503)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2f5a0503-8dbc-4316-9068-719c6f14b7ca/element [39m[32m200[39m [90m75 ms - 67[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2f5a0503-8dbc-4316-9068-719c6f14b7ca/element/1/click[39m
+[35m[HTTP][39m [90m{"id":"1","sessionId":"2f5a0503-8dbc-4316-9068-719c6f14b7ca"}[39m
+[debug] [35m[W3C (2f5a0503)][39m Calling AppiumDriver.click() with args: ["1","2f5a0503-8dbc-4316-9068-719c6f14b7ca"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[W3C (2f5a0503)][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2f5a0503-8dbc-4316-9068-719c6f14b7ca/element/1/click [39m[32m200[39m [90m1044 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at doListen (net.js:1460:7)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>,"platformVersion":"7.1.2"},"capabilities":{"firstMatch":[{"appium:platformVersion":"7.1.2","appium:newCommandTimeout":"4000","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:appPackage":"com.tal.kaoyan","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:noReset":"false","platformName":"Android","appium:deviceName":"127.0.0.1:62001","appium:udid":"127.0.0.1:62001"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"noReset":"false","newCommandTimeout":"4000","deviceName":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","udid":"127.0.0.1:62001","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","platformName":"Android","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformVersion":"7.1.2"},null,{"firstMatch":[{"appium:platformVersion":"7.1.2","appium:newCommandTimeout":"4000","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:appPackage":"com.tal.kaoyan","appium:app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","appium:noReset":"false","platformName":"Android","appium:deviceName":"127.0.0.1:62001","appium:udid":"127.0.0.1:62001"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1557604689194 (03:58:09 GMT+0800 (GMT+08:00))
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+[35m[Appium][39m Appium v1.12.1 creating new AndroidDriver (v4.15.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   platformVersion: 7.1.2
+[35m[Appium][39m   newCommandTimeout: 4000
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   app: F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":"false","newComm... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Number capability passed in as string. Functionality may be compromised.
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+[35m[BaseDriver][39m Session created with session id: 0fc754f6-0a2d-493a-963d-2f5910aa2111
+[35m[ADB][39m Found 2 'build-tools' folders under 'D:\android-sdk_r24.4.1-windows\android-sdk-windows' (newest first):
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/28.0.3
+[35m[ADB][39m     D:/android-sdk_r24.4.1-windows/android-sdk-windows/build-tools/22.0.1
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[35m[ADB][39m Using 'adb.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[35m[BaseDriver][39m Using local app 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pidof --help > /dev/null; echo $?''
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m The version name of the installed 'com.tal.kaoyan' is greater or equal to the application version name ('3.3.6' >= '3.3.6')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk'
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package com.tal.kaoyan'
+[debug] [35m[ADB][39m 'com.tal.kaoyan' is installed
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\KingWolf\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings from for language: default
+[35m[ADB][39m Successfully extracted 2290 strings from 'F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test/app/kaoyanbang.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\KingWolf\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.15.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Using ps-based PID detection
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 0fc754f6-0a2d-493a-963d-2f5910aa2111 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1557604724900 (03:58:44 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (0fc754f6)][39m Cached the protocol value 'W3C' for the new session 0fc754f6-0a2d-493a-963d-2f5910aa2111
+[debug] [35m[W3C (0fc754f6)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"7.1.2","newCommandTimeout":4000,"appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appPackage":"com.tal.kaoyan","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","noReset":false,"deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001"},"platformName":"Android","platformVersion":"5.1.1","newCommandTimeout":4000,"appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appPackage":"com.tal.kaoyan","app":"F:\\GitExtensions_python\\project_spider\\app_autonation\\appium_learn\\kyb_project_test/app/kaoyanbang.apk","noReset":false,"deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManuf...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m35729 ms - 1101[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0fc754f6-0a2d-493a-963d-2f5910aa2111/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":5000,"sessionId":"0fc754f6-0a2d-493a-963d-2f5910aa2111"}[39m
+[debug] [35m[W3C (0fc754f6)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"0fc754f6-0a2d-493a-963d-2f5910aa2111"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (0fc754f6)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0fc754f6-0a2d-493a-963d-2f5910aa2111/timeouts [39m[32m200[39m [90m63 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0fc754f6-0a2d-493a-963d-2f5910aa2111/element[39m
+[35m[HTTP][39m [90m{"value":"com.tal.kaoyan:id/tv_skip","sessionId":"0fc754f6-0a2d-493a-963d-2f5910aa2111","using":"id"}[39m
+[debug] [35m[W3C (0fc754f6)][39m Calling AppiumDriver.findElement() with args: ["id","com.tal.kaoyan:id/tv_skip","0fc754f6-0a2d-493a-963d-2f5910aa2111"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.tal.kaoyan:id/tv_skip' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tal.kaoyan:id/tv_skip]
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[W3C (0fc754f6)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0fc754f6-0a2d-493a-963d-2f5910aa2111/element [39m[32m200[39m [90m45 ms - 67[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0fc754f6-0a2d-493a-963d-2f5910aa2111/element/1/click[39m
+[35m[HTTP][39m [90m{"id":"1","sessionId":"0fc754f6-0a2d-493a-963d-2f5910aa2111"}[39m
+[debug] [35m[W3C (0fc754f6)][39m Calling AppiumDriver.click() with args: ["1","0fc754f6-0a2d-493a-963d-2f5910aa2111"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (0fc754f6)][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0fc754f6-0a2d-493a-963d-2f5910aa2111/element/1/click [39m[32m200[39m [90m1025 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[Logcat][39m Logcat terminated with code 0, signal null
+[35m[UiAutomator][39m UiAutomator exited unexpectedly with code 0, signal null
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[35m[Appium][39m Removing session 0fc754f6-0a2d-493a-963d-2f5910aa2111 from our master session list
+[debug] [35m[ADB][39m Running 'D:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+Unhandled rejection Error: Command 'D\:\\android-sdk_r24.4.1-windows\\android-sdk-windows\\platform-tools\\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan' exited with code 1
+    at ChildProcess.proc.on.code (C:\Users\KingWolf\AppData\Roaming\npm\node_modules\appium\node_modules\_teen_process@1.14.1@teen_process\lib\exec.js:94:19)
+    at ChildProcess.emit (events.js:182:13)
+    at maybeClose (internal/child_process.js:962:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)
+
+F:\GitExtensions_python\project_spider\app_autonation\appium_learn\kyb_project_test\multi_devices>

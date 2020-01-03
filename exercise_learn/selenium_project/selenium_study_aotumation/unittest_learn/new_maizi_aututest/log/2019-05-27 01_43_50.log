@@ -1,0 +1,4 @@
+2019-05-27 01:43:50,268 -- browserType  --browser.py -- INFO -- You select Chrome browser
+2019-05-27 01:43:50,269 -- browserType  --browser.py -- INFO -- login_url is http://www.maiziedu.com/
+2019-05-27 01:43:56,052 -- browserType  --browser.py -- INFO -- Starting chrome browser
+2019-05-27 01:44:02,802 -- browserType  --browser.py -- INFO -- Open url is http://www.maiziedu.com/

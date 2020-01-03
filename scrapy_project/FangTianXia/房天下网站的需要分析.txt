@@ -1,0 +1,39 @@
+房天下网站的需要分析：
+
+1.获取所有城市的url链接：
+	https://www.fang.com/SoufunFamily.htm
+
+2.获取所有城市的新房url链接：
+	例如：城市是珠海--珠海城市的url：https://zh.fang.com/
+	珠海新房的url：https://zh.newhouse.fang.com/house/s/
+
+3.获取所有城市的二手房url链接:
+	珠海城市的url：https://zh.fang.com/
+	珠海二手房的url：https://zh.esf.fang.com/
+
+4.获取所有城市的租房url链接：
+	珠海城市的url：https://zh.fang.com/
+	珠海租房的url：https://zh.zu.fang.com/
+
+5.注意：存在一个特例，就是北京
+	北京城市的url：https://bj.fang.com/
+		北京新房的url：https://newhouse.fang.com/house/s/
+		北京二手房的url：https://esf.fang.com/
+		北京的租房url：https://zu.fang.com/
+		而且，这里跳转的url好像有重定向的问题，就是你之前访问的是哪个城市的url，在跳转北京的这个url，会自动重定向到之前的那个城市对应的新房，租房，二手房的url中
+
+6.分析可以得到，新房的url规律和二手房的url规律
+	新房的url规律:https://城市对应的字母简写.newhouse.fang.com/house/s/    ps:北京除外
+	二手房的url规律:https://城市对应的字母简写.esf.fang.com/   			ps:北京除外
+	租房的url规律:https://城市对应的字母简写.zu.fang.com/   			ps:北京除外
+
+
+#paq爬取后，发现的问题：
+1.租房： a.build_year字段没有获取到数据   xxxx
+		b.rooms字段获取到的数据，需要处理前后的空格'\r\n'等待
+		c.rent字段获取到的数据，需要处理前后的空格'\r\n'等待
+		d.towards字段获取到的数据，需要处理前后的空格'\r\n'等待
+
+2.二手房： a.build_year字段没有获取到数据
+		  b.rooms字段获取到的数据，需要处理前后的空格'\r\n'等待
+		

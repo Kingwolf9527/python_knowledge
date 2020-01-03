@@ -1,0 +1,33 @@
+2019-04-07 06:04:04,217 --- myunit.py --- common_start_unittest --- INFO --- ===================setup====================== ---
+2019-04-07 06:04:04,223 --- driver.py --- driver --- INFO --- .................start app ............. ---
+2019-04-07 06:04:22,654 --- test_login.py --- test_login --- INFO --- =========================username is right,password is wrong================================================ ---
+2019-04-07 06:04:25,654 --- common_view.py --- skip_btn --- INFO --- =================check skip_btn======================== ---
+2019-04-07 06:04:26,108 --- common_view.py --- skip_btn --- INFO --- =====================pass the skip-page================== ---
+2019-04-07 06:04:26,109 --- common_login.py --- login_check --- INFO --- ========================login========================== ---
+2019-04-07 06:04:26,110 --- common_login.py --- login_check --- INFO --- input username: kingwolfbook14 ---
+2019-04-07 06:04:32,410 --- common_login.py --- login_check --- INFO --- input password: 123456 ---
+2019-04-07 06:04:38,165 --- common_login.py --- login_check --- INFO --- ======================click login_button================== ---
+2019-04-07 06:04:39,154 --- common_login.py --- login_check --- INFO --- =======================login finish======================= ---
+2019-04-07 06:04:39,155 --- myunit.py --- common_start_unittest --- INFO --- ====================teardown========================== ---
+2019-04-07 06:04:44,580 --- myunit.py --- common_start_unittest --- INFO --- ===================setup====================== ---
+2019-04-07 06:04:44,582 --- driver.py --- driver --- INFO --- .................start app ............. ---
+2019-04-07 06:04:58,682 --- test_login.py --- test_login --- INFO --- =========================username is invalid================================================ ---
+2019-04-07 06:05:01,683 --- common_view.py --- skip_btn --- INFO --- =================check skip_btn======================== ---
+2019-04-07 06:05:02,084 --- common_view.py --- skip_btn --- INFO --- =====================pass the skip-page================== ---
+2019-04-07 06:05:02,084 --- common_login.py --- login_check --- INFO --- ========================login========================== ---
+2019-04-07 06:05:02,084 --- common_login.py --- login_check --- INFO --- input username: king ---
+2019-04-07 06:05:08,498 --- common_login.py --- login_check --- INFO --- input password: 123456 ---
+2019-04-07 06:05:14,329 --- common_login.py --- login_check --- INFO --- ======================click login_button================== ---
+2019-04-07 06:05:15,218 --- common_login.py --- login_check --- INFO --- =======================login finish======================= ---
+2019-04-07 06:05:15,218 --- myunit.py --- common_start_unittest --- INFO --- ====================teardown========================== ---
+2019-04-07 06:05:20,746 --- myunit.py --- common_start_unittest --- INFO --- ===================setup====================== ---
+2019-04-07 06:05:20,749 --- driver.py --- driver --- INFO --- .................start app ............. ---
+2019-04-07 06:05:34,938 --- test_login.py --- test_login --- INFO --- =======================username and password right======================= ---
+2019-04-07 06:05:37,940 --- common_view.py --- skip_btn --- INFO --- =================check skip_btn======================== ---
+2019-04-07 06:05:38,323 --- common_view.py --- skip_btn --- INFO --- =====================pass the skip-page================== ---
+2019-04-07 06:05:38,324 --- common_login.py --- login_check --- INFO --- ========================login========================== ---
+2019-04-07 06:05:38,324 --- common_login.py --- login_check --- INFO --- input username: kingwolfbook14 ---
+2019-04-07 06:05:45,332 --- common_login.py --- login_check --- INFO --- input password: 922521dfxs ---
+2019-04-07 06:05:51,023 --- common_login.py --- login_check --- INFO --- ======================click login_button================== ---
+2019-04-07 06:05:51,698 --- common_login.py --- login_check --- INFO --- =======================login finish======================= ---
+2019-04-07 06:05:51,699 --- myunit.py --- common_start_unittest --- INFO --- ====================teardown========================== ---

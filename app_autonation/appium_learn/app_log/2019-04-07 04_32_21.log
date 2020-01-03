@@ -1,0 +1,5 @@
+2019-04-07 04:32:21,480 --- driver.py --- driver --- INFO --- .................start app ............. ---
+2019-04-07 04:32:38,400 --- common_view.py --- skip_btn --- INFO --- =================check skip_btn======================== ---
+2019-04-07 04:32:38,772 --- common_view.py --- skip_btn --- ERROR --- ====================no shipbtn====================== ---
+2019-04-07 04:32:38,772 --- common_login.py --- login_check --- INFO --- ========================login========================== ---
+2019-04-07 04:32:38,773 --- common_login.py --- login_check --- INFO --- input username: kingwolfbook14 ---
