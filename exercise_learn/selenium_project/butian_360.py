@@ -139,7 +139,7 @@ class Butian_proceing(object):
 
         #域名或者ip
         self.driver.find_element_by_name('host').clear()
-        self.driver.find_element_by_name('host').send_keys('11111')
+        self.driver.find_element_by_name('host').send_keys('11177711')
 
         #漏洞类型(下拉框属于select方法)---选择"web漏洞",index=1，value=1
         selection = Select(self.driver.find_element_by_id('selCate'))
@@ -147,7 +147,7 @@ class Butian_proceing(object):
 
         #漏洞标题
         self.driver.find_element_by_xpath('//input[@id="title"]').clear()
-        self.driver.find_element_by_xpath('//input[@id="title"]').send_keys('222有SQL注入')
+        self.driver.find_element_by_xpath('//input[@id="title"]').send_keys('2有SQL注入')
 
         #漏洞url
         self.driver.find_element_by_name('url[]').clear()
@@ -205,7 +205,7 @@ class Butian_proceing(object):
         self.driver.find_element_by_id('tijiao').click()
 
         #这里的滑块拖动或者点击文字，还是要手动
-        time.sleep(15)
+        time.sleep(11)
 
 
 
