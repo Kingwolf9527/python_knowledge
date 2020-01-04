@@ -16,12 +16,12 @@ class Read_Excel(object):
             filepath_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)),'data')
             self.filepath = os.path.join(filepath_dir,'register_data_test.xls')
         else:
-            self.filepath == filepath
+            self.filepath = filepath
 
         if index == None:
             index = 0
         else:
-            index == index
+            index = index
 
         #打开excel文件(设置formatting_info，让excel表格的样式保持原来的)
         self.data = xlrd.open_workbook(self.filepath,formatting_info=True)
@@ -85,7 +85,7 @@ class Read_Excel(object):
         :param col: 列号
         :return:
         """
-        #输入的行号跟列号需要小于等于总行数或者总列数
+        #输入的行号需要小于等于总行数或者总列数
         if self.get_nrows() > row:
             cell_data = self.table.cell_value(row,col)
             return cell_data
@@ -100,10 +100,11 @@ class Read_Excel(object):
         """
         #先复制数据
         read_value = xlrd.open_workbook(self.filepath,formatting_info=True)
-        write_data = copy(read_value)
+        copy_data = copy(read_value)
 
         #写入数据
-        write_data.get_sheet(0).write(row,col,value)
+        write_data = copy_data.get_sheet(0)
+        write_data.write(row,col,value)
 
         #保存数据
         write_data.save(self.filepath)
