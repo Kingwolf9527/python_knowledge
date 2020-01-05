@@ -4,7 +4,7 @@
 # createtime : 2019/11/30 5:17
 
 import sys
-sys.path.append(r'F:\GitExtensions_python\project_spider\exercise_learn\new_selenium_project')
+sys.path.append(r'F:\Tortoise_python\exercise_learn\new_selenium_project')
 
 import unittest
 import os

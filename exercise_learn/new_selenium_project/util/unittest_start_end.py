@@ -6,7 +6,7 @@
 import unittest
 import time
 from util.browser_driver_test import Webdriver_Browser
-from businessview.register_business import Register_Business
+from new_selenium_project.PageObject.businessview.register_business import Register_Business
 from util.common_log import Common_Logs
 
 
@@ -24,7 +24,7 @@ class Unittest_start_end(unittest.TestCase):
         self.driver = self.browser.driver
 
         #实例化business方法
-        self._register_ = Register_Business(self.driver)
+        self.new_register_ = Register_Business(self.driver)
 
     def tearDown(self):
 

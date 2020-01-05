@@ -88,7 +88,8 @@ class Read_Excel(object):
         #输入的行号需要小于等于总行数或者总列数
         if self.get_nrows() > row:
             cell_data = self.table.cell_value(row,col)
-            return cell_data
+            cell_value_data = self.change_float_data(cell_data)
+            return cell_value_data
         return None
 
     def write_value(self,row,col,value):
@@ -110,11 +111,60 @@ class Read_Excel(object):
         write_data.save(self.filepath)
 
 
+    def get_email_col(self):
+        """
+        封装获取email数据列
+        :return:
+        """
+        email = 0
+        return email
+
+    def get_username_col(self):
+        """
+        封装获取username数据列
+        :return:
+        """
+        username = 1
+        return username
+
+    def get_password_col(self):
+        """
+        封装获取password数据列
+        :return:
+        """
+        password = 2
+        return password
+
+    def get_code_col(self):
+        """
+        封装获取code数据列
+        :return:
+        """
+        code = 3
+        return code
+
+    def get_error_type_col(self):
+        """
+        封装获取error_type数据列
+        :return:
+        """
+        error_type = 4
+        return error_type
+
+    def get_error_text_col(self):
+        """
+        封装获取error_text数据列
+        :return:
+        """
+        error_text = 5
+        return error_text
+
+
 
 
 if __name__ == '__main__':
 
     ex = Read_Excel()
-    data_ = ex.processing_data()
+    data_ = ex.get_email_col()
     print(data_)
 
