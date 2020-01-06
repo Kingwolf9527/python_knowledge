@@ -8,7 +8,7 @@ sys.path.append(r'F:\Tortoise_python\exercise_learn\new_selenium_project')
 
 import unittest
 import ddt
-from util.common_log import Common_Logs
+from new_selenium_project.util.common_log import Common_Logs
 from new_selenium_project.util.unittest_start_end import Unittest_start_end
 from new_selenium_project.util.read_excel import Read_Excel
 

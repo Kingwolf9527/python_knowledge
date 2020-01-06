@@ -5,7 +5,7 @@
 
 import unittest
 import time
-from util.browser_driver_test import Webdriver_Browser
+from new_selenium_project.util.browser_driver_test import Webdriver_Browser
 from new_selenium_project.PageObject.businessview.register_business import Register_Business
 from util.common_log import Common_Logs
 

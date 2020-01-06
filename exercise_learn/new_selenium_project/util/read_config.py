@@ -5,7 +5,7 @@
 
 import configparser
 import os
-from util.common_log import Common_Logs
+from new_selenium_project.util.common_log import Common_Logs
 
 #实例化logger
 log_name = Common_Logs(logger='common_config')

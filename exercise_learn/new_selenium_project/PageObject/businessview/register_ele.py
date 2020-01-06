@@ -3,7 +3,7 @@
 # __author__ : KingWolf
 # createtime : 2019/11/28 1:22
 
-from baseview.element_processing import Elemnet
+from new_selenium_project.PageObject.baseview.element_processing import Elemnet
 
 class Register_ele(object):
 

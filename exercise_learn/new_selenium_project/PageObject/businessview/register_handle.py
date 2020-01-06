@@ -3,9 +3,9 @@
 # __author__ : KingWolf
 # createtime : 2019/11/28 1:06
 
-from businessview.register_ele import Register_ele
+from new_selenium_project.PageObject.businessview.register_ele import Register_ele
 from selenium.common.exceptions import NoSuchElementException
-from util.common_log import Common_Logs
+from new_selenium_project.util.common_log import Common_Logs
 
 #实例化logger
 log_name = Common_Logs(logger='register_handle')

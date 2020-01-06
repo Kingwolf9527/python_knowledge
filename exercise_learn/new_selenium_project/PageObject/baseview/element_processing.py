@@ -6,8 +6,8 @@
 import time
 import os
 from selenium.common.exceptions import NoSuchElementException
-from util.read_config import Read_Config
-from util.common_log import Common_Logs
+from new_selenium_project.util.read_config import Read_Config
+from new_selenium_project.util.common_log import Common_Logs
 
 #实例化logger
 log_name = Common_Logs(logger='base_view')

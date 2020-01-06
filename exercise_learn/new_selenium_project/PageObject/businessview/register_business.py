@@ -3,8 +3,8 @@
 # __author__ : KingWolf
 # createtime : 2019/11/28 1:04
 
-from businessview.register_handle import RegisterHandle
-from util.common_log import Common_Logs
+from new_selenium_project.PageObject.businessview.register_handle import RegisterHandle
+from new_selenium_project.util.common_log import Common_Logs
 
 
 #实例化logger
