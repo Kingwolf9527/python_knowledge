@@ -1,0 +1,84 @@
+=+=Starting var:.. testList = [10, 2, 120, 0, -20, 55]
+=+=04:08:09.023580 call        22 def bubbleSort(testList):
+=+=04:08:09.027573 line        24     for i in range(len(testList)-1):
+=+=New var:....... i = 0
+=+=04:08:09.029070 line        26         for j in range(len(testList)-1-i):
+=+=New var:....... j = 0
+=+=04:08:09.030566 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.031065 line        29                 testList[j],testList[j+1] = testList[j+1],testList[j]
+=+=Modified var:.. testList = [2, 10, 120, 0, -20, 55]
+=+=04:08:09.032564 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 1
+=+=04:08:09.033561 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.035056 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 2
+=+=04:08:09.036554 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.037554 line        29                 testList[j],testList[j+1] = testList[j+1],testList[j]
+=+=Modified var:.. testList = [2, 10, 0, 120, -20, 55]
+=+=04:08:09.039051 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 3
+=+=04:08:09.041045 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.041544 line        29                 testList[j],testList[j+1] = testList[j+1],testList[j]
+=+=Modified var:.. testList = [2, 10, 0, -20, 120, 55]
+=+=04:08:09.043041 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 4
+=+=04:08:09.044539 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.045538 line        29                 testList[j],testList[j+1] = testList[j+1],testList[j]
+=+=Modified var:.. testList = [2, 10, 0, -20, 55, 120]
+=+=04:08:09.047036 line        26         for j in range(len(testList)-1-i):
+=+=04:08:09.048035 line        24     for i in range(len(testList)-1):
+=+=Modified var:.. i = 1
+=+=04:08:09.049031 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 0
+=+=04:08:09.050529 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.051028 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 1
+=+=04:08:09.053022 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.054021 line        29                 testList[j],testList[j+1] = testList[j+1],testList[j]
+=+=Modified var:.. testList = [2, 0, 10, -20, 55, 120]
+=+=04:08:09.055517 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 2
+=+=04:08:09.057015 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.058015 line        29                 testList[j],testList[j+1] = testList[j+1],testList[j]
+=+=Modified var:.. testList = [2, 0, -20, 10, 55, 120]
+=+=04:08:09.059013 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 3
+=+=04:08:09.060510 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.061506 line        26         for j in range(len(testList)-1-i):
+=+=04:08:09.062008 line        24     for i in range(len(testList)-1):
+=+=Modified var:.. i = 2
+=+=04:08:09.063504 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 0
+=+=04:08:09.064502 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.065500 line        29                 testList[j],testList[j+1] = testList[j+1],testList[j]
+=+=Modified var:.. testList = [0, 2, -20, 10, 55, 120]
+=+=04:08:09.066998 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 1
+=+=04:08:09.068493 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.069491 line        29                 testList[j],testList[j+1] = testList[j+1],testList[j]
+=+=Modified var:.. testList = [0, -20, 2, 10, 55, 120]
+=+=04:08:09.071487 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 2
+=+=04:08:09.073483 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.073984 line        26         for j in range(len(testList)-1-i):
+=+=04:08:09.074483 line        24     for i in range(len(testList)-1):
+=+=Modified var:.. i = 3
+=+=04:08:09.075981 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 0
+=+=04:08:09.077476 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.077975 line        29                 testList[j],testList[j+1] = testList[j+1],testList[j]
+=+=Modified var:.. testList = [-20, 0, 2, 10, 55, 120]
+=+=04:08:09.079472 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 1
+=+=04:08:09.080470 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.081468 line        26         for j in range(len(testList)-1-i):
+=+=04:08:09.082476 line        24     for i in range(len(testList)-1):
+=+=Modified var:.. i = 4
+=+=04:08:09.083466 line        26         for j in range(len(testList)-1-i):
+=+=Modified var:.. j = 0
+=+=04:08:09.084964 line        28             if testList[j] > testList[j+1]:
+=+=04:08:09.085463 line        26         for j in range(len(testList)-1-i):
+=+=04:08:09.086460 line        24     for i in range(len(testList)-1):
+=+=04:08:09.086960 line        31     return testList
+=+=04:08:09.087459 return      31     return testList
+=+=Return value:.. [-20, 0, 2, 10, 55, 120]

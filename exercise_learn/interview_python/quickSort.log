@@ -1,0 +1,86 @@
+--**--Starting var:.. testList = [10, 2, 120, 0, -20, 55]
+--**--05:27:37.267736 call        65 def quickSort(testList):
+--**--05:27:37.269226 line        67     if len(testList) < 2:
+--**--05:27:37.270225 line        71         baseValue = testList[0]
+--**--New var:....... baseValue = 10
+--**--05:27:37.271223 line        73         lessList = [i for i in testList if i < baseValue]
+--**--New var:....... lessList = [2, 0, -20]
+--**--05:27:37.272720 line        75         equalList = [i for i in testList if i == baseValue]
+--**--New var:....... equalList = [10]
+--**--05:27:37.274716 line        77         greaterList = [i for i in testList if i > baseValue]
+--**--New var:....... greaterList = [120, 55]
+--**--05:27:37.275716 line        80         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--    Starting var:.. testList = [2, 0, -20]
+--**--    05:27:37.277712 call        65 def quickSort(testList):
+--**--    05:27:37.278709 line        67     if len(testList) < 2:
+--**--    05:27:37.279209 line        71         baseValue = testList[0]
+--**--    New var:....... baseValue = 2
+--**--    05:27:37.280706 line        73         lessList = [i for i in testList if i < baseValue]
+--**--    New var:....... lessList = [0, -20]
+--**--    05:27:37.282204 line        75         equalList = [i for i in testList if i == baseValue]
+--**--    New var:....... equalList = [2]
+--**--    05:27:37.284198 line        77         greaterList = [i for i in testList if i > baseValue]
+--**--    New var:....... greaterList = []
+--**--    05:27:37.285196 line        80         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--        Starting var:.. testList = [0, -20]
+--**--        05:27:37.287192 call        65 def quickSort(testList):
+--**--        05:27:37.287695 line        67     if len(testList) < 2:
+--**--        05:27:37.288690 line        71         baseValue = testList[0]
+--**--        New var:....... baseValue = 0
+--**--        05:27:37.291186 line        73         lessList = [i for i in testList if i < baseValue]
+--**--        New var:....... lessList = [-20]
+--**--        05:27:37.292682 line        75         equalList = [i for i in testList if i == baseValue]
+--**--        New var:....... equalList = [0]
+--**--        05:27:37.293680 line        77         greaterList = [i for i in testList if i > baseValue]
+--**--        New var:....... greaterList = []
+--**--        05:27:37.295179 line        80         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--            Starting var:.. testList = [-20]
+--**--            05:27:37.296675 call        65 def quickSort(testList):
+--**--            05:27:37.297673 line        67     if len(testList) < 2:
+--**--            05:27:37.298670 line        68         return testList
+--**--            05:27:37.299669 return      68         return testList
+--**--            Return value:.. [-20]
+--**--            Starting var:.. testList = []
+--**--            05:27:37.301665 call        65 def quickSort(testList):
+--**--            05:27:37.302164 line        67     if len(testList) < 2:
+--**--            05:27:37.302663 line        68         return testList
+--**--            05:27:37.303162 return      68         return testList
+--**--            Return value:.. []
+--**--        05:27:37.304660 return      80         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--        Return value:.. [-20, 0]
+--**--        Starting var:.. testList = []
+--**--        05:27:37.307656 call        65 def quickSort(testList):
+--**--        05:27:37.308653 line        67     if len(testList) < 2:
+--**--        05:27:37.309151 line        68         return testList
+--**--        05:27:37.310149 return      68         return testList
+--**--        Return value:.. []
+--**--    05:27:37.311147 return      80         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--    Return value:.. [-20, 0, 2]
+--**--    Starting var:.. testList = [120, 55]
+--**--    05:27:37.313643 call        65 def quickSort(testList):
+--**--    05:27:37.314642 line        67     if len(testList) < 2:
+--**--    05:27:37.317137 line        71         baseValue = testList[0]
+--**--    New var:....... baseValue = 120
+--**--    05:27:37.319132 line        73         lessList = [i for i in testList if i < baseValue]
+--**--    New var:....... lessList = [55]
+--**--    05:27:37.320629 line        75         equalList = [i for i in testList if i == baseValue]
+--**--    New var:....... equalList = [120]
+--**--    05:27:37.322625 line        77         greaterList = [i for i in testList if i > baseValue]
+--**--    New var:....... greaterList = []
+--**--    05:27:37.324621 line        80         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--        Starting var:.. testList = [55]
+--**--        05:27:37.326118 call        65 def quickSort(testList):
+--**--        05:27:37.327116 line        67     if len(testList) < 2:
+--**--        05:27:37.327616 line        68         return testList
+--**--        05:27:37.328614 return      68         return testList
+--**--        Return value:.. [55]
+--**--        Starting var:.. testList = []
+--**--        05:27:37.331608 call        65 def quickSort(testList):
+--**--        05:27:37.332607 line        67     if len(testList) < 2:
+--**--        05:27:37.333604 line        68         return testList
+--**--        05:27:37.334104 return      68         return testList
+--**--        Return value:.. []
+--**--    05:27:37.336100 return      80         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--    Return value:.. [55, 120]
+--**--05:27:37.337597 return      80         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--Return value:.. [-20, 0, 2, 10, 55, 120]

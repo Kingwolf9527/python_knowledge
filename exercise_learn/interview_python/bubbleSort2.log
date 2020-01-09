@@ -1,0 +1,222 @@
+===Starting var:.. testList = [10, 2, 120, 0, -20, 55]
+===04:21:54.074447 call        40 def bubbleSort(testList):
+===04:21:54.076447 line        43     for i in range(len(testList)-1):
+===New var:....... i = 0
+===04:21:54.077444 line        45         numberChange = False
+===New var:....... numberChange = False
+===04:21:54.078942 line        47         for j in range(len(testList)-1-i):
+===New var:....... j = 0
+===04:21:54.080439 line        49             if testList[j] > testList[j+1]:
+===04:21:54.081439 line        50                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 120, 0, -20, 55]
+===04:21:54.082936 line        51                 numberChange = True
+===Modified var:.. numberChange = True
+===04:21:54.084434 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===04:21:54.085928 line        49             if testList[j] > testList[j+1]:
+===04:21:54.086929 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===04:21:54.088423 line        49             if testList[j] > testList[j+1]:
+===04:21:54.088925 line        50                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, 120, -20, 55]
+===04:21:54.090422 line        51                 numberChange = True
+===04:21:54.091420 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 3
+===04:21:54.093414 line        49             if testList[j] > testList[j+1]:
+===04:21:54.093915 line        50                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, -20, 120, 55]
+===04:21:54.095411 line        51                 numberChange = True
+===04:21:54.096411 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 4
+===04:21:54.097409 line        49             if testList[j] > testList[j+1]:
+===04:21:54.098407 line        50                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, -20, 55, 120]
+===04:21:54.099903 line        51                 numberChange = True
+===04:21:54.100401 line        47         for j in range(len(testList)-1-i):
+===04:21:54.101898 line        53         if not numberChange:
+===04:21:54.102399 line        43     for i in range(len(testList)-1):
+===Modified var:.. i = 1
+===04:21:54.103898 line        45         numberChange = False
+===Modified var:.. numberChange = False
+===04:21:54.105393 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===04:21:54.106391 line        49             if testList[j] > testList[j+1]:
+===04:21:54.107388 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===04:21:54.108387 line        49             if testList[j] > testList[j+1]:
+===04:21:54.109385 line        50                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 0, 10, -20, 55, 120]
+===04:21:54.110383 line        51                 numberChange = True
+===Modified var:.. numberChange = True
+===04:21:54.111879 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===04:21:54.113376 line        49             if testList[j] > testList[j+1]:
+===04:21:54.113876 line        50                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 0, -20, 10, 55, 120]
+===04:21:54.115372 line        51                 numberChange = True
+===04:21:54.115873 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 3
+===04:21:54.117368 line        49             if testList[j] > testList[j+1]:
+===04:21:54.117870 line        47         for j in range(len(testList)-1-i):
+===04:21:54.118369 line        53         if not numberChange:
+===04:21:54.119366 line        43     for i in range(len(testList)-1):
+===Modified var:.. i = 2
+===04:21:54.120365 line        45         numberChange = False
+===Modified var:.. numberChange = False
+===04:21:54.121862 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===04:21:54.123358 line        49             if testList[j] > testList[j+1]:
+===04:21:54.123856 line        50                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [0, 2, -20, 10, 55, 120]
+===04:21:54.125353 line        51                 numberChange = True
+===Modified var:.. numberChange = True
+===04:21:54.126851 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===04:21:54.128350 line        49             if testList[j] > testList[j+1]:
+===04:21:54.129350 line        50                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [0, -20, 2, 10, 55, 120]
+===04:21:54.130843 line        51                 numberChange = True
+===04:21:54.131344 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===04:21:54.132840 line        49             if testList[j] > testList[j+1]:
+===04:21:54.133340 line        47         for j in range(len(testList)-1-i):
+===04:21:54.133839 line        53         if not numberChange:
+===04:21:54.134837 line        43     for i in range(len(testList)-1):
+===Modified var:.. i = 3
+===04:21:54.135837 line        45         numberChange = False
+===Modified var:.. numberChange = False
+===04:21:54.137332 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===04:21:54.138828 line        49             if testList[j] > testList[j+1]:
+===04:21:54.139328 line        50                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [-20, 0, 2, 10, 55, 120]
+===04:21:54.140824 line        51                 numberChange = True
+===Modified var:.. numberChange = True
+===04:21:54.141824 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===04:21:54.143321 line        49             if testList[j] > testList[j+1]:
+===04:21:54.143821 line        47         for j in range(len(testList)-1-i):
+===04:21:54.144818 line        53         if not numberChange:
+===04:21:54.145318 line        43     for i in range(len(testList)-1):
+===Modified var:.. i = 4
+===04:21:54.147312 line        45         numberChange = False
+===Modified var:.. numberChange = False
+===04:21:54.148811 line        47         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===04:21:54.151306 line        49             if testList[j] > testList[j+1]:
+===04:21:54.152304 line        47         for j in range(len(testList)-1-i):
+===04:21:54.153301 line        53         if not numberChange:
+===04:21:54.154299 line        54             return testList
+===04:21:54.154799 return      54             return testList
+===Return value:.. [-20, 0, 2, 10, 55, 120]
+===Starting var:.. testList = [10, 2, 120, 0, -20, 55]
+===05:32:21.933341 call        40 def bubbleSort(testList):
+===05:32:21.954799 line        42     for i in range(len(testList)-1):
+===New var:....... i = 0
+===05:32:21.958291 line        44         numberChange = False
+===New var:....... numberChange = False
+===05:32:21.960787 line        46         for j in range(len(testList)-1-i):
+===New var:....... j = 0
+===05:32:21.962783 line        48             if testList[j] > testList[j+1]:
+===05:32:21.964281 line        49                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 120, 0, -20, 55]
+===05:32:21.966276 line        50                 numberChange = True
+===Modified var:.. numberChange = True
+===05:32:21.968272 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===05:32:21.970268 line        48             if testList[j] > testList[j+1]:
+===05:32:21.971266 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===05:32:21.973262 line        48             if testList[j] > testList[j+1]:
+===05:32:21.974760 line        49                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, 120, -20, 55]
+===05:32:21.977255 line        50                 numberChange = True
+===05:32:21.978253 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 3
+===05:32:21.980250 line        48             if testList[j] > testList[j+1]:
+===05:32:21.981248 line        49                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, -20, 120, 55]
+===05:32:21.983244 line        50                 numberChange = True
+===05:32:21.985240 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 4
+===05:32:21.988234 line        48             if testList[j] > testList[j+1]:
+===05:32:21.995720 line        49                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, -20, 55, 120]
+===05:32:21.997716 line        50                 numberChange = True
+===05:32:21.999214 line        46         for j in range(len(testList)-1-i):
+===05:32:22.000711 line        52         if not numberChange:
+===05:32:22.001708 line        42     for i in range(len(testList)-1):
+===Modified var:.. i = 1
+===05:32:22.003706 line        44         numberChange = False
+===Modified var:.. numberChange = False
+===05:32:22.006699 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===05:32:22.009194 line        48             if testList[j] > testList[j+1]:
+===05:32:22.010692 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===05:32:22.013186 line        48             if testList[j] > testList[j+1]:
+===05:32:22.014185 line        49                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 0, 10, -20, 55, 120]
+===05:32:22.016680 line        50                 numberChange = True
+===Modified var:.. numberChange = True
+===05:32:22.019176 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===05:32:22.022670 line        48             if testList[j] > testList[j+1]:
+===05:32:22.024166 line        49                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 0, -20, 10, 55, 120]
+===05:32:22.025665 line        50                 numberChange = True
+===05:32:22.026660 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 3
+===05:32:22.028658 line        48             if testList[j] > testList[j+1]:
+===05:32:22.030155 line        46         for j in range(len(testList)-1-i):
+===05:32:22.031152 line        52         if not numberChange:
+===05:32:22.032152 line        42     for i in range(len(testList)-1):
+===Modified var:.. i = 2
+===05:32:22.035644 line        44         numberChange = False
+===Modified var:.. numberChange = False
+===05:32:22.037640 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===05:32:22.039637 line        48             if testList[j] > testList[j+1]:
+===05:32:22.040634 line        49                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [0, 2, -20, 10, 55, 120]
+===05:32:22.042630 line        50                 numberChange = True
+===Modified var:.. numberChange = True
+===05:32:22.044628 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===05:32:22.047122 line        48             if testList[j] > testList[j+1]:
+===05:32:22.048120 line        49                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [0, -20, 2, 10, 55, 120]
+===05:32:22.050118 line        50                 numberChange = True
+===05:32:22.051115 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===05:32:22.053112 line        48             if testList[j] > testList[j+1]:
+===05:32:22.055607 line        46         for j in range(len(testList)-1-i):
+===05:32:22.058102 line        52         if not numberChange:
+===05:32:22.059599 line        42     for i in range(len(testList)-1):
+===Modified var:.. i = 3
+===05:32:22.062093 line        44         numberChange = False
+===Modified var:.. numberChange = False
+===05:32:22.064090 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===05:32:22.066086 line        48             if testList[j] > testList[j+1]:
+===05:32:22.067584 line        49                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [-20, 0, 2, 10, 55, 120]
+===05:32:22.069580 line        50                 numberChange = True
+===Modified var:.. numberChange = True
+===05:32:22.071077 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===05:32:22.073073 line        48             if testList[j] > testList[j+1]:
+===05:32:22.074071 line        46         for j in range(len(testList)-1-i):
+===05:32:22.075069 line        52         if not numberChange:
+===05:32:22.076070 line        42     for i in range(len(testList)-1):
+===Modified var:.. i = 4
+===05:32:22.077565 line        44         numberChange = False
+===Modified var:.. numberChange = False
+===05:32:22.079560 line        46         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===05:32:22.081058 line        48             if testList[j] > testList[j+1]:
+===05:32:22.082056 line        46         for j in range(len(testList)-1-i):
+===05:32:22.083053 line        52         if not numberChange:
+===05:32:22.083553 line        53             return testList
+===05:32:22.084551 return      53             return testList
+===Return value:.. [-20, 0, 2, 10, 55, 120]
