@@ -21,60 +21,64 @@ logger = log_name.get_logger()
 
 class RunCase(object):
 
-    def test_exe_case(self):
+    def loadTestCase(self):
 
         #获取case的目录
-        case_path = os.path.join(os.path.dirname(__file__),'test_case')
-        logger.info('------  case_path is: %s   ------' %case_path)
+        casePath = os.path.join(os.path.dirname(__file__),'test_case')
+        logger.info('------  case_path is: %s   ------' %casePath)
         #执行所有case文件
-        suite = unittest.defaultTestLoader.discover(start_dir=case_path,pattern='test*.py')
+        suite = unittest.defaultTestLoader.discover(start_dir=casePath,pattern='test*.py')
         # unittest.TextTestRunner().run(suite)
         return suite
 
-    def report_info(self):
+    def reportInfo(self):
 
         #实例化加载测试报告方法
-        case_suite = self.test_exe_case()
+        caseSuite = self.loadTestCase()
 
         #测试报告的路径
-        self.report_path = os.path.join(os.path.dirname(__file__),'report')
-        logger.info('------  report_path is: %s   ------' %self.report_path)
+        reportPath = os.path.join(os.path.dirname(__file__),'report')
+        logger.info('------  report_path is: %s   ------' %reportPath)
 
         #测试报告的名字
-        report_format =time.strftime('%Y-%m-%d %H_%M_%S',time.localtime(time.time()))
-        report_dir = os.path.join(self.report_path,report_format)
-        report_name = report_dir + '.html'
-        logger.info('------ report_name is: %s    ------' %report_name)
+        reportFormat =time.strftime('%Y-%m-%d %H_%M_%S',time.localtime(time.time()))
+        reportDir = os.path.join(reportPath,reportFormat)
+        reportName = reportDir + '.html'
+        logger.info('------ report_name is: %s    ------' %reportName)
 
         #往测试报告写入信息：
-        with open(report_name,'wb') as f:
+        with open(reportName,'wb') as f:
             #加载HTMLTestRunner_PY3
-            report_result = HTMLTestRunner_PY3.HTMLTestRunner(stream=f,\
+            reportResult = HTMLTestRunner_PY3.HTMLTestRunner(stream=f,\
                                                               title='第三次测试报告',\
                                                               description='测试结果如下：')
-            report_result.run(case_suite)
+            reportResult.run(caseSuite)
+
+        return reportPath
 
 
-    def get_new_report(self,report_path):
+    def getNewReport(self,reportPath):
         """
         查找最新的测试报告
-        :param report_path: 测试报告所在的目录
+        :param reportPath: 测试报告所在的目录
         :return:
         """
+        #获取测试报告目录
+        reportPath = self.reportInfo()
 
         #返回测试报告目录页面的所有文件或者文件夹，结果是一个list
-        file = os.listdir(self.report_path)
+        file = os.listdir(reportPath)
 
         #对测试报告排序(采用默认的asc)
-        file.sort(key=lambda x:os.path.getmtime(self.report_path + '/' + x),reverse=False)
+        file.sort(key=lambda x:os.path.getmtime(reportPath + '/' + x),reverse=False)
 
         #获取最新测试报告文件
-        new_report = os.path.join(self.report_path,file[-1])
-        logger.info('------ the new_report is: %s    ------' %new_report)
+        newReport = os.path.join(reportPath,file[-1])
+        logger.info('------ the new_report is: %s    ------' %newReport)
 
-        return new_report
+        return newReport
 
-    def send_email(self, new_report):
+    def sendEmail(self, reportPath):
         """
         调用email方法，得到配置信息，并且发送最新生成的测试报告
         :param report_new: 需要发送的最新测试报告---attachments(附件发送)
@@ -94,7 +98,7 @@ class RunCase(object):
         contents = Read_Email().get_email_info()[5]
 
         # 获取最新测试报告
-        new_report = self.get_new_report(self.report_path)
+        new_report = self.getNewReport(reportPath)
 
         # 发送邮件
         email = yagmail.SMTP(user=sender, password=authorization_code, host=smtp_server, smtp_ssl=True)
@@ -104,7 +108,8 @@ class RunCase(object):
 
 if __name__ == '__main__':
     # unittest.main()
-    RUN = RunCase()
-    RUN.report_info()
-    tt = RUN.get_new_report(RUN.report_path)
-    RUN.send_email(tt)
+    test = RunCase()
+    test.loadTestCase()
+    test.reportInfo()
+    test.getNewReport()
+    test.sendEmail()

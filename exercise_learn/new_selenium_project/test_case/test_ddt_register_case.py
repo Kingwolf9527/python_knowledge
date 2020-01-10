@@ -9,7 +9,7 @@ sys.path.append(r'F:\Tortoise_python\exercise_learn\new_selenium_project')
 import unittest
 import ddt
 from new_selenium_project.util.common_log import Common_Logs
-from new_selenium_project.util.unittest_start_end import Unittest_start_end
+from new_selenium_project.util.unittest_start_end import UnittestStartEnd
 from new_selenium_project.util.read_excel import Read_Excel
 
 
@@ -29,7 +29,7 @@ logger = log_name.get_logger()
 # ddt_data = ex.processing_data()
 
 # @ddt.ddt
-# class Ddt_register(Unittest_start_end):
+# class Ddt_register(UnittestStartEnd):
 #
 #     @ddt.data(*ddt_data)
 #
@@ -45,7 +45,7 @@ logger = log_name.get_logger()
 
 
 
-class Ddt_Register(Unittest_start_end):
+class Ddt_Register(UnittestStartEnd):
 
     # 读取excel的数据
     ex = Read_Excel()

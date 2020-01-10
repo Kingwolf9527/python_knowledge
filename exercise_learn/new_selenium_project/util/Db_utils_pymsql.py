@@ -3,14 +3,14 @@
 # __author__ : KingWolf
 # createtime : 2019/12/18 2:41
 
-import pymysql
 import os
 import logging
+import pymysql
 from DBUtils.PersistentDB import PersistentDB
 from DBUtils.PooledDB import PooledDB
-from util.read_config import Read_Config
+from new_selenium_project.util.read_config import Read_Config
 
-class Db_utils_processing(object):
+class DbUtilsProcessing(object):
 
     def __init__(self,is_mult_thread):
 
@@ -131,7 +131,7 @@ class Db_utils_processing(object):
 if __name__ == '__main__':
 
     sql = 'select * from xici;'
-    t = Db_utils_processing(is_mult_thread=True)
+    t = DbUtilsProcessing(is_mult_thread=True)
     t.select_Db(sql)
 
 

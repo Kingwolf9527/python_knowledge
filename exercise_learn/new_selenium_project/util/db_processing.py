@@ -6,7 +6,7 @@
 import pymysql
 import os
 import logging
-from util.read_config import Read_Config
+from new_selenium_project.util.read_config import Read_Config
 
 
 class Db_processing(object):
