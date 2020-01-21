@@ -220,3 +220,244 @@
 ===05:32:22.083553 line        53             return testList
 ===05:32:22.084551 return      53             return testList
 ===Return value:.. [-20, 0, 2, 10, 55, 120]
+===Starting var:.. testList = [10, 2, 120, 0, -20, 55]
+===22:06:43.811680 call        42 def bubbleSort(testList):
+===22:06:43.831731 line        44     startTime = time.time()
+===New var:....... startTime = 1579097203.8327296
+===22:06:43.843208 line        46     for i in range(len(testList)-1):
+===New var:....... i = 0
+===22:06:43.844707 line        48         numberChange = False
+===New var:....... numberChange = False
+===22:06:43.846205 line        50         for j in range(len(testList)-1-i):
+===New var:....... j = 0
+===22:06:43.847699 line        52             if testList[j] > testList[j+1]:
+===22:06:43.848200 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 120, 0, -20, 55]
+===22:06:43.849695 line        54                 numberChange = True
+===Modified var:.. numberChange = True
+===22:06:43.850695 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===22:06:43.852192 line        52             if testList[j] > testList[j+1]:
+===22:06:43.852691 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===22:06:43.854186 line        52             if testList[j] > testList[j+1]:
+===22:06:43.854687 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, 120, -20, 55]
+===22:06:43.856184 line        54                 numberChange = True
+===22:06:43.856683 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 3
+===22:06:43.858179 line        52             if testList[j] > testList[j+1]:
+===22:06:43.858680 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, -20, 120, 55]
+===22:06:43.860175 line        54                 numberChange = True
+===22:06:43.860676 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 4
+===22:06:43.862173 line        52             if testList[j] > testList[j+1]:
+===22:06:43.863171 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, -20, 55, 120]
+===22:06:43.864669 line        54                 numberChange = True
+===22:06:43.865167 line        50         for j in range(len(testList)-1-i):
+===22:06:43.888169 line        56         if not numberChange:
+===22:06:43.888665 line        46     for i in range(len(testList)-1):
+===Modified var:.. i = 1
+===22:06:43.890662 line        48         numberChange = False
+===Modified var:.. numberChange = False
+===22:06:43.892157 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===22:06:43.893157 line        52             if testList[j] > testList[j+1]:
+===22:06:43.894155 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===22:06:43.895153 line        52             if testList[j] > testList[j+1]:
+===22:06:43.895653 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 0, 10, -20, 55, 120]
+===22:06:43.897149 line        54                 numberChange = True
+===Modified var:.. numberChange = True
+===22:06:43.898645 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===22:06:43.900142 line        52             if testList[j] > testList[j+1]:
+===22:06:43.900643 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 0, -20, 10, 55, 120]
+===22:06:43.902138 line        54                 numberChange = True
+===22:06:43.903137 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 3
+===22:06:43.904134 line        52             if testList[j] > testList[j+1]:
+===22:06:43.905135 line        50         for j in range(len(testList)-1-i):
+===22:06:43.906131 line        56         if not numberChange:
+===22:06:43.906632 line        46     for i in range(len(testList)-1):
+===Modified var:.. i = 2
+===22:06:43.908129 line        48         numberChange = False
+===Modified var:.. numberChange = False
+===22:06:43.909624 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===22:06:43.911122 line        52             if testList[j] > testList[j+1]:
+===22:06:43.912119 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [0, 2, -20, 10, 55, 120]
+===22:06:43.913616 line        54                 numberChange = True
+===Modified var:.. numberChange = True
+===22:06:43.914615 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===22:06:43.916111 line        52             if testList[j] > testList[j+1]:
+===22:06:43.916611 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [0, -20, 2, 10, 55, 120]
+===22:06:43.918107 line        54                 numberChange = True
+===22:06:43.918607 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===22:06:43.920104 line        52             if testList[j] > testList[j+1]:
+===22:06:43.921105 line        50         for j in range(len(testList)-1-i):
+===22:06:43.921603 line        56         if not numberChange:
+===22:06:43.922599 line        46     for i in range(len(testList)-1):
+===Modified var:.. i = 3
+===22:06:43.923599 line        48         numberChange = False
+===Modified var:.. numberChange = False
+===22:06:43.925096 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===22:06:43.926095 line        52             if testList[j] > testList[j+1]:
+===22:06:43.927093 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [-20, 0, 2, 10, 55, 120]
+===22:06:43.928591 line        54                 numberChange = True
+===Modified var:.. numberChange = True
+===22:06:43.930087 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===22:06:43.931584 line        52             if testList[j] > testList[j+1]:
+===22:06:43.932083 line        50         for j in range(len(testList)-1-i):
+===22:06:43.933080 line        56         if not numberChange:
+===22:06:43.933581 line        46     for i in range(len(testList)-1):
+===Modified var:.. i = 4
+===22:06:43.935077 line        48         numberChange = False
+===Modified var:.. numberChange = False
+===22:06:43.936575 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===22:06:43.938072 line        52             if testList[j] > testList[j+1]:
+===22:06:43.938571 line        50         for j in range(len(testList)-1-i):
+===22:06:43.939569 line        56         if not numberChange:
+===22:06:43.940068 line        57             return testList
+===22:06:43.941065 return      57             return testList
+===Return value:.. [-20, 0, 2, 10, 55, 120]
+===Starting var:.. testList = [10, 2, 120, 0, -20, 55]
+===22:07:51.212991 call        42 def bubbleSort(testList):
+===22:07:51.213990 line        44     startTime = time.time()
+===New var:....... startTime = 1579097271.214985
+===22:07:51.215487 line        46     for i in range(len(testList)-1):
+===New var:....... i = 0
+===22:07:51.216981 line        48         numberChange = False
+===New var:....... numberChange = False
+===22:07:51.217981 line        50         for j in range(len(testList)-1-i):
+===New var:....... j = 0
+===22:07:51.219975 line        52             if testList[j] > testList[j+1]:
+===22:07:51.220478 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 120, 0, -20, 55]
+===22:07:51.221973 line        54                 numberChange = True
+===Modified var:.. numberChange = True
+===22:07:51.222971 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===22:07:51.224469 line        52             if testList[j] > testList[j+1]:
+===22:07:51.224967 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===22:07:51.226465 line        52             if testList[j] > testList[j+1]:
+===22:07:51.226963 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, 120, -20, 55]
+===22:07:51.228462 line        54                 numberChange = True
+===22:07:51.228962 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 3
+===22:07:51.230457 line        52             if testList[j] > testList[j+1]:
+===22:07:51.230956 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, -20, 120, 55]
+===22:07:51.232451 line        54                 numberChange = True
+===22:07:51.233453 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 4
+===22:07:51.234449 line        52             if testList[j] > testList[j+1]:
+===22:07:51.235447 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 10, 0, -20, 55, 120]
+===22:07:51.236445 line        54                 numberChange = True
+===22:07:51.237443 line        50         for j in range(len(testList)-1-i):
+===22:07:51.237942 line        56         endTime = time.time()
+===New var:....... endTime = 1579097271.238442
+===22:07:51.239439 line        57         print('程序运行的时间是： %s' % (endTime - startTime))
+===22:07:51.240436 line        58         if not numberChange:
+===22:07:51.240938 line        46     for i in range(len(testList)-1):
+===Modified var:.. i = 1
+===22:07:51.242437 line        48         numberChange = False
+===Modified var:.. numberChange = False
+===22:07:51.243930 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===22:07:51.245427 line        52             if testList[j] > testList[j+1]:
+===22:07:51.245926 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===22:07:51.247423 line        52             if testList[j] > testList[j+1]:
+===22:07:51.248424 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 0, 10, -20, 55, 120]
+===22:07:51.249919 line        54                 numberChange = True
+===Modified var:.. numberChange = True
+===22:07:51.250919 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===22:07:51.252415 line        52             if testList[j] > testList[j+1]:
+===22:07:51.252914 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [2, 0, -20, 10, 55, 120]
+===22:07:51.254409 line        54                 numberChange = True
+===22:07:51.254910 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 3
+===22:07:51.256406 line        52             if testList[j] > testList[j+1]:
+===22:07:51.256906 line        50         for j in range(len(testList)-1-i):
+===22:07:51.257405 line        56         endTime = time.time()
+===Modified var:.. endTime = 1579097271.2579048
+===22:07:51.258903 line        57         print('程序运行的时间是： %s' % (endTime - startTime))
+===22:07:51.259401 line        58         if not numberChange:
+===22:07:51.260399 line        46     for i in range(len(testList)-1):
+===Modified var:.. i = 2
+===22:07:51.261398 line        48         numberChange = False
+===Modified var:.. numberChange = False
+===22:07:51.262895 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===22:07:51.264395 line        52             if testList[j] > testList[j+1]:
+===22:07:51.264893 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [0, 2, -20, 10, 55, 120]
+===22:07:51.266387 line        54                 numberChange = True
+===Modified var:.. numberChange = True
+===22:07:51.268883 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===22:07:51.270379 line        52             if testList[j] > testList[j+1]:
+===22:07:51.270878 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [0, -20, 2, 10, 55, 120]
+===22:07:51.272380 line        54                 numberChange = True
+===22:07:51.272878 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 2
+===22:07:51.274375 line        52             if testList[j] > testList[j+1]:
+===22:07:51.274872 line        50         for j in range(len(testList)-1-i):
+===22:07:51.275869 line        56         endTime = time.time()
+===Modified var:.. endTime = 1579097271.2763698
+===22:07:51.277366 line        57         print('程序运行的时间是： %s' % (endTime - startTime))
+===22:07:51.277866 line        58         if not numberChange:
+===22:07:51.278365 line        46     for i in range(len(testList)-1):
+===Modified var:.. i = 3
+===22:07:51.280360 line        48         numberChange = False
+===Modified var:.. numberChange = False
+===22:07:51.281861 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===22:07:51.283355 line        52             if testList[j] > testList[j+1]:
+===22:07:51.283857 line        53                 testList[j],testList[j+1] = testList[j+1],testList[j]
+===Modified var:.. testList = [-20, 0, 2, 10, 55, 120]
+===22:07:51.285352 line        54                 numberChange = True
+===Modified var:.. numberChange = True
+===22:07:51.286350 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 1
+===22:07:51.287847 line        52             if testList[j] > testList[j+1]:
+===22:07:51.288846 line        50         for j in range(len(testList)-1-i):
+===22:07:51.289345 line        56         endTime = time.time()
+===Modified var:.. endTime = 1579097271.2898438
+===22:07:51.290841 line        57         print('程序运行的时间是： %s' % (endTime - startTime))
+===22:07:51.291341 line        58         if not numberChange:
+===22:07:51.292341 line        46     for i in range(len(testList)-1):
+===Modified var:.. i = 4
+===22:07:51.293837 line        48         numberChange = False
+===Modified var:.. numberChange = False
+===22:07:51.295834 line        50         for j in range(len(testList)-1-i):
+===Modified var:.. j = 0
+===22:07:51.297332 line        52             if testList[j] > testList[j+1]:
+===22:07:51.297830 line        50         for j in range(len(testList)-1-i):
+===22:07:51.298826 line        56         endTime = time.time()
+===Modified var:.. endTime = 1579097271.299326
+===22:07:51.299825 line        57         print('程序运行的时间是： %s' % (endTime - startTime))
+===22:07:51.300822 line        58         if not numberChange:
+===22:07:51.301322 line        59             return testList
+===22:07:51.301821 return      59             return testList
+===Return value:.. [-20, 0, 2, 10, 55, 120]

@@ -84,3 +84,119 @@
 --**--    Return value:.. [55, 120]
 --**--05:27:37.337597 return      80         return  quickSort(lessList) + equalList + quickSort(greaterList)
 --**--Return value:.. [-20, 0, 2, 10, 55, 120]
+--**--Starting var:.. testList = [10, 2, 120, 0, -20, 55]
+--**--20:39:17.676815 call        70 def quickSort(testList):
+--**--20:39:17.703261 line        73     startTime = time.time()
+--**--New var:....... startTime = 1579091957.7042603
+--**--20:39:17.714741 line        75     if len(testList) < 2:
+--**--20:39:17.716238 line        79         baseValue = testList[0]
+--**--New var:....... baseValue = 10
+--**--20:39:17.718235 line        81         lessList = [i for i in testList if i < baseValue]
+--**--New var:....... lessList = [2, 0, -20]
+--**--20:39:17.719730 line        83         equalList = [i for i in testList if i == baseValue]
+--**--New var:....... equalList = [10]
+--**--20:39:17.721227 line        85         greaterList = [i for i in testList if i > baseValue]
+--**--New var:....... greaterList = [120, 55]
+--**--20:39:17.724222 line        87         endTime = time.time()
+--**--New var:....... endTime = 1579091957.725222
+--**--20:39:17.727220 line        88         print('程序运行的时间是： %s' % (endTime - startTime))
+--**--20:39:17.728714 line        91         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--    Starting var:.. testList = [2, 0, -20]
+--**--    20:39:17.730710 call        70 def quickSort(testList):
+--**--    20:39:17.732208 line        73     startTime = time.time()
+--**--    New var:....... startTime = 1579091957.733206
+--**--    20:39:17.733704 line        75     if len(testList) < 2:
+--**--    20:39:17.735701 line        79         baseValue = testList[0]
+--**--    New var:....... baseValue = 2
+--**--    20:39:17.737696 line        81         lessList = [i for i in testList if i < baseValue]
+--**--    New var:....... lessList = [0, -20]
+--**--    20:39:17.745683 line        83         equalList = [i for i in testList if i == baseValue]
+--**--    New var:....... equalList = [2]
+--**--    20:39:17.748676 line        85         greaterList = [i for i in testList if i > baseValue]
+--**--    New var:....... greaterList = []
+--**--    20:39:17.751172 line        87         endTime = time.time()
+--**--    New var:....... endTime = 1579091957.7521691
+--**--    20:39:17.752670 line        88         print('程序运行的时间是： %s' % (endTime - startTime))
+--**--    20:39:17.770634 line        91         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--        Starting var:.. testList = [0, -20]
+--**--        20:39:17.775625 call        70 def quickSort(testList):
+--**--        20:39:17.777620 line        73     startTime = time.time()
+--**--        New var:....... startTime = 1579091957.77862
+--**--        20:39:17.779619 line        75     if len(testList) < 2:
+--**--        20:39:17.781114 line        79         baseValue = testList[0]
+--**--        New var:....... baseValue = 0
+--**--        20:39:17.782612 line        81         lessList = [i for i in testList if i < baseValue]
+--**--        New var:....... lessList = [-20]
+--**--        20:39:17.784110 line        83         equalList = [i for i in testList if i == baseValue]
+--**--        New var:....... equalList = [0]
+--**--        20:39:17.786104 line        85         greaterList = [i for i in testList if i > baseValue]
+--**--        New var:....... greaterList = []
+--**--        20:39:17.788101 line        87         endTime = time.time()
+--**--        New var:....... endTime = 1579091957.7975829
+--**--        20:39:17.799080 line        88         print('程序运行的时间是： %s' % (endTime - startTime))
+--**--        20:39:17.800577 line        91         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--            Starting var:.. testList = [-20]
+--**--            20:39:17.804570 call        70 def quickSort(testList):
+--**--            20:39:17.813057 line        73     startTime = time.time()
+--**--            New var:....... startTime = 1579091957.8145509
+--**--            20:39:17.815548 line        75     if len(testList) < 2:
+--**--            20:39:17.816547 line        76         return testList
+--**--            20:39:17.817545 return      76         return testList
+--**--            Return value:.. [-20]
+--**--            Starting var:.. testList = []
+--**--            20:39:17.820041 call        70 def quickSort(testList):
+--**--            20:39:17.821537 line        73     startTime = time.time()
+--**--            New var:....... startTime = 1579091957.8345137
+--**--            20:39:17.836508 line        75     if len(testList) < 2:
+--**--            20:39:17.837506 line        76         return testList
+--**--            20:39:17.838504 return      76         return testList
+--**--            Return value:.. []
+--**--        20:39:17.844992 return      91         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--        Return value:.. [-20, 0]
+--**--        Starting var:.. testList = []
+--**--        20:39:17.853477 call        70 def quickSort(testList):
+--**--        20:39:17.854474 line        73     startTime = time.time()
+--**--        New var:....... startTime = 1579091957.8554733
+--**--        20:39:17.862460 line        75     if len(testList) < 2:
+--**--        20:39:17.863957 line        76         return testList
+--**--        20:39:17.864954 return      76         return testList
+--**--        Return value:.. []
+--**--    20:39:17.866951 return      91         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--    Return value:.. [-20, 0, 2]
+--**--    Starting var:.. testList = [120, 55]
+--**--    20:39:17.869446 call        70 def quickSort(testList):
+--**--    20:39:17.870444 line        73     startTime = time.time()
+--**--    New var:....... startTime = 1579091957.8714426
+--**--    20:39:17.872440 line        75     if len(testList) < 2:
+--**--    20:39:17.873938 line        79         baseValue = testList[0]
+--**--    New var:....... baseValue = 120
+--**--    20:39:17.876432 line        81         lessList = [i for i in testList if i < baseValue]
+--**--    New var:....... lessList = [55]
+--**--    20:39:17.878928 line        83         equalList = [i for i in testList if i == baseValue]
+--**--    New var:....... equalList = [120]
+--**--    20:39:17.880926 line        85         greaterList = [i for i in testList if i > baseValue]
+--**--    New var:....... greaterList = []
+--**--    20:39:17.882920 line        87         endTime = time.time()
+--**--    New var:....... endTime = 1579091957.883919
+--**--    20:39:17.884917 line        88         print('程序运行的时间是： %s' % (endTime - startTime))
+--**--    20:39:17.885915 line        91         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--        Starting var:.. testList = [55]
+--**--        20:39:17.887911 call        70 def quickSort(testList):
+--**--        20:39:17.888909 line        73     startTime = time.time()
+--**--        New var:....... startTime = 1579091957.8899086
+--**--        20:39:17.892902 line        75     if len(testList) < 2:
+--**--        20:39:17.894399 line        76         return testList
+--**--        20:39:17.896395 return      76         return testList
+--**--        Return value:.. [55]
+--**--        Starting var:.. testList = []
+--**--        20:39:17.899888 call        70 def quickSort(testList):
+--**--        20:39:17.902383 line        73     startTime = time.time()
+--**--        New var:....... startTime = 1579091957.9038806
+--**--        20:39:17.905377 line        75     if len(testList) < 2:
+--**--        20:39:17.915857 line        76         return testList
+--**--        20:39:17.917354 return      76         return testList
+--**--        Return value:.. []
+--**--    20:39:17.920349 return      91         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--    Return value:.. [55, 120]
+--**--20:39:17.935819 return      91         return  quickSort(lessList) + equalList + quickSort(greaterList)
+--**--Return value:.. [-20, 0, 2, 10, 55, 120]

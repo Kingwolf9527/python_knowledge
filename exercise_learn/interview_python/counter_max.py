@@ -53,7 +53,7 @@ words = [
 nunber_dict_count = {}
 
 for i in words:
-    if i not in nunber_dict_count:
+    if i not in nunber_dict_count:  #for循环字典，默认是key的值
         nunber_dict_count[i] = 1
     else:
         nunber_dict_count[i] += 1

@@ -15,7 +15,9 @@
 
 """
 
+import time
 import pysnooper
+
 
 #冒泡排序
 # @pysnooper.snoop(output='./bubbleSort.log',prefix='=+=')
@@ -36,27 +38,28 @@ import pysnooper
 
 
 #冒泡排序优化
-@pysnooper.snoop(output='./bubbleSort2.log',prefix='===')
-def bubbleSort(testList):
-    #排序的次数
-    for i in range(len(testList)-1):
-        # 用来标志数据是否发生改变(因为如果冒泡排序执行了一趟而没有交换发生，说明该列表已经是有序状态，可以直接结束算法)
-        numberChange = False
-        #元素的下标
-        for j in range(len(testList)-1-i):
-            #数据交换
-            if testList[j] > testList[j+1]:
-                testList[j],testList[j+1] = testList[j+1],testList[j]
-                numberChange = True
-
-        if not numberChange:
-            return testList
-
-    return testList
-
-testList = [10,2,120,0,-20,55]
-testResult = bubbleSort(testList)
-print(testResult)
+# @pysnooper.snoop(output='./bubbleSort2.log',prefix='===')
+# def bubbleSort(testList):
+#
+#     #排序的次数
+#     for i in range(len(testList)-1):
+#         # 用来标志数据是否发生改变(因为如果冒泡排序执行了一趟而没有交换发生，说明该列表已经是有序状态，可以直接结束算法)
+#         numberChange = False
+#         #元素的下标
+#         for j in range(len(testList)-1-i):
+#             #数据交换
+#             if testList[j] > testList[j+1]:
+#                 testList[j],testList[j+1] = testList[j+1],testList[j]
+#                 numberChange = True
+#
+#         if not numberChange:
+#             return testList
+#
+#     return testList
+#
+# testList = [10,2,120,0,-20,55]
+# testResult = bubbleSort(testList)
+# print(testResult)
 #测试结果是：
 # [-20, 0, 2, 10, 55, 120]
 
@@ -64,28 +67,29 @@ print(testResult)
 
 
 #快速排列
-# @pysnooper.snoop(output='./quickSort.log',prefix='--**--')
-# def quickSort(testList):
-#     #判断基线条件
-#     if len(testList) < 2:
-#         return testList
-#     else:
-#         #设置基准值
-#         baseValue = testList[0]
-#         #小于基准值的数列
-#         lessList = [i for i in testList if i < baseValue]
-#         #等于基准值的数列
-#         equalList = [i for i in testList if i == baseValue]
-#         #大于基准值的数列
-#         greaterList = [i for i in testList if i > baseValue]
-#
-#         #返回排列好的数列(内部需要再次排序处理)
-#         return  quickSort(lessList) + equalList + quickSort(greaterList)
-#
-#
-#
-# testList = [10,2,120,0,-20,55]
-# testResult = quickSort(testList)
-# print(testResult)
+@pysnooper.snoop(output='./quickSort.log',prefix='--**--')
+def quickSort(testList):
+
+    #判断基线条件
+    if len(testList) < 2:
+        return testList
+    else:
+        #设置基准值
+        baseValue = testList[0]
+        #小于基准值的数列
+        lessList = [i for i in testList if i < baseValue]
+        #等于基准值的数列
+        equalList = [i for i in testList if i == baseValue]
+        #大于基准值的数列
+        greaterList = [i for i in testList if i > baseValue]
+
+        #返回排列好的数列(内部需要再次排序处理)
+        return  quickSort(lessList) + equalList + quickSort(greaterList)
+
+
+
+testList = [10,2,120,0,-20,55]
+testResult = quickSort(testList)
+print(testResult)
 ## 测试结果:
 #[-20,0,2,10,55,120]
